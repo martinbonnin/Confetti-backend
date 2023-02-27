@@ -5,12 +5,12 @@ import graphql.schema.*
 import kotlinx.datetime.LocalDateTime
 
 val graphqlLocalDateTimeScalar = GraphQLScalarType.newScalar()
-    .name("LocalDate")
+    .name("LocalDateTime")
     .description("A type representing a formatted kotlinx.datetime.LocalDateTime")
-    .coercing(LocalDateCoercing)
+    .coercing(LocalDateTimeCoercing)
     .build()!!
 
-object LocalDateCoercing : Coercing<LocalDateTime, String> {
+object LocalDateTimeCoercing : Coercing<LocalDateTime, String> {
     override fun parseValue(input: Any): LocalDateTime = runCatching {
         LocalDateTime.parse(serialize(input))
     }.getOrElse {
