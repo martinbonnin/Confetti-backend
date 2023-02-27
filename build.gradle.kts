@@ -6,6 +6,7 @@ plugins {
 	id("org.jetbrains.kotlin.jvm") version "1.8.10"
 	id("org.jetbrains.kotlin.plugin.spring") version "1.8.10"
 	id("org.jetbrains.kotlin.plugin.serialization") version "1.8.10"
+	id("com.google.cloud.tools.appengine") version "2.4.5"
 }
 
 group = "confetti"
@@ -32,4 +33,21 @@ tasks.withType<KotlinCompile> {
 
 tasks.withType<Test> {
 	useJUnitPlatform()
+}
+
+appengine {
+	stage {
+		setArtifact(tasks.named("bootJar").flatMap { (it as Jar).archiveFile })
+	}
+	tools {
+		setServiceAccountKeyFile(file("service_account_key.json"))
+	}
+	deploy {
+		projectId = "kotlinconfetti"
+		version = "GCLOUD_CONFIG"
+	}
+}
+
+tasks.named("appengineStage").configure {
+	dependsOn("bootJar")
 }
