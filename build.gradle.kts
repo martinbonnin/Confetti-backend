@@ -5,6 +5,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.1.0"
 	id("org.jetbrains.kotlin.jvm") version "1.8.10"
 	id("org.jetbrains.kotlin.plugin.spring") version "1.8.10"
+	id("org.jetbrains.kotlin.plugin.serialization") version "1.8.10"
 }
 
 group = "confetti"
@@ -17,6 +18,8 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
+	implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
+	implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0")
 	implementation("com.expediagroup:graphql-kotlin-spring-server:7.0.0-alpha.3")
 }
 
