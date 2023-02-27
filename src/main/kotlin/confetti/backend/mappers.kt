@@ -18,8 +18,7 @@ fun JsonSession.toGraphQL(): GraphQLSession {
 fun JsonSpeaker.toGraphQL(): GraphQLSpeaker {
     return GraphQLSpeaker(
         id = ID(id),
-        firstName = firstName,
-        lastName = lastName,
+        name = "$firstName $lastName",
     )
 }
 

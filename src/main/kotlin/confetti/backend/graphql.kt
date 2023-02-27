@@ -21,12 +21,13 @@ class GraphQLSession(
     fun room(): GraphQLRoom {
         return jsonData.rooms.find { it.id.toString() == roomId.value }?.toGraphQL() ?: error("Cannot find room: $roomId")
     }
+
+    val type = "talk"
 }
 
 class GraphQLSpeaker(
     val id: ID,
-    val firstName: String,
-    val lastName: String,
+    val name: String,
 )
 
 class GraphQLRoom(
