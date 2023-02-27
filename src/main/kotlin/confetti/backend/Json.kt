@@ -26,4 +26,6 @@ class JsonSession(
     val id: String,
     val title: String,
     val description: String?,
+    val startsAt: String,
+    val endsAt: String,
 )
