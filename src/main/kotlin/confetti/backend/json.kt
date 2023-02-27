@@ -18,7 +18,9 @@ val jsonData: JsonData by lazy {
 
 @Serializable
 class JsonData(
-    val sessions: List<JsonSession>
+    val sessions: List<JsonSession>,
+    val speakers: List<JsonSpeaker>,
+    val rooms: List<JsonRoom>,
 )
 
 @Serializable
@@ -28,4 +30,19 @@ class JsonSession(
     val description: String?,
     val startsAt: String,
     val endsAt: String,
+    val speakers: List<String>,
+    val roomId: Int
+)
+
+@Serializable
+class JsonSpeaker(
+    val id: String,
+    val firstName: String,
+    val lastName: String,
+)
+
+@Serializable
+class JsonRoom(
+    val id: Int,
+    val name: String,
 )
