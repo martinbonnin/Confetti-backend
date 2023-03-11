@@ -3,8 +3,8 @@ package confetti.backend
 import com.expediagroup.graphql.generator.scalars.ID
 import kotlinx.datetime.LocalDateTime
 
-fun JsonSession.toGraphQL(): GraphQLSession {
-    return GraphQLSession(
+fun JsonSession.toGraphQL(): Session {
+    return Session(
         id = ID(id),
         title = title,
         description = description,
@@ -15,15 +15,15 @@ fun JsonSession.toGraphQL(): GraphQLSession {
     )
 }
 
-fun JsonSpeaker.toGraphQL(): GraphQLSpeaker {
-    return GraphQLSpeaker(
+fun JsonSpeaker.toGraphQL(): Speaker {
+    return Speaker(
         id = ID(id),
         name = "$firstName $lastName",
     )
 }
 
-fun JsonRoom.toGraphQL(): GraphQLRoom {
-    return GraphQLRoom(
+fun JsonRoom.toGraphQL(): Room {
+    return Room(
         id = ID(id.toString()),
         name = name,
     )

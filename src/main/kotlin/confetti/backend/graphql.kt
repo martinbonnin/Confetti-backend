@@ -3,7 +3,7 @@ package confetti.backend
 import com.expediagroup.graphql.generator.scalars.ID
 import kotlinx.datetime.LocalDateTime
 
-class GraphQLSession(
+class Session(
     val id: ID,
     val title: String,
     val description: String?,
@@ -12,25 +12,25 @@ class GraphQLSession(
     private val speakerIds: List<ID>,
     private val roomId: ID,
 ) {
-    fun speakers(): List<GraphQLSpeaker> {
+    fun speakers(): List<Speaker> {
         return speakerIds.map { speakerId ->
             jsonData.speakers.find { it.id == speakerId.value }?.toGraphQL() ?: error("Cannot find speaker: $speakerId")
         }
     }
 
-    fun room(): GraphQLRoom {
+    fun room(): Room {
         return jsonData.rooms.find { it.id.toString() == roomId.value }?.toGraphQL() ?: error("Cannot find room: $roomId")
     }
 
     val type = "talk"
 }
 
-class GraphQLSpeaker(
+class Speaker(
     val id: ID,
     val name: String,
 )
 
-class GraphQLRoom(
+class Room(
     val id: ID,
     val name: String,
 )
