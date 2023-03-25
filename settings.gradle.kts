@@ -1,4 +1,4 @@
-rootProject.name = "kotlinconfetti-backend"
+rootProject.name = "Confetti-backend"
 
 pluginManagement {
     resolutionStrategy {
