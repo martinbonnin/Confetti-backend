@@ -1,2 +1,3 @@
 graphql:
-  packages: "confetti.backend"
+  packages:
+    - "confetti.backend"

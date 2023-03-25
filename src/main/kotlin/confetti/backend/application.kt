@@ -18,7 +18,7 @@ import kotlin.reflect.KType
 @Component
 class GraphQLQuery : Query {
     fun sessions(): List<Session> {
-        return jsonData.sessions.map { it.toGraphQL() }
+        return jsonData.sessions.map { it.toSession() }
     }
 }
 
