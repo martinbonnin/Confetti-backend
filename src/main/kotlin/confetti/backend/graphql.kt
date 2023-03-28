@@ -14,12 +14,12 @@ class Session(
 ) {
     fun speakers(): List<Speaker> {
         return speakerIds.map { speakerId ->
-            jsonData.speakers.find { it.id == speakerId.value }?.toGraphQL() ?: error("Cannot find speaker: $speakerId")
+            jsonData.speakers.find { it.id == speakerId.value }?.toSpeaker() ?: error("Cannot find speaker: $speakerId")
         }
     }
 
     fun room(): Room {
-        return jsonData.rooms.find { it.id.toString() == roomId.value }?.toGraphQL() ?: error("Cannot find room: $roomId")
+        return jsonData.rooms.find { it.id.toString() == roomId.value }?.toRoom() ?: error("Cannot find room: $roomId")
     }
 
     val type = "talk"
