@@ -2,6 +2,5 @@ graphql:
   packages:
     - "confetti.backend"
 
-
   playground:
     enabled: true
