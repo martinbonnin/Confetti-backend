@@ -11,7 +11,6 @@ plugins {
 
 group = "confetti"
 version = "0.0.1-SNAPSHOT"
-java.sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {
 	mavenCentral()
@@ -24,12 +23,6 @@ dependencies {
 	implementation("com.expediagroup:graphql-kotlin-spring-server:7.0.0-alpha.3")
 }
 
-tasks.withType<KotlinCompile> {
-	kotlinOptions {
-		freeCompilerArgs = listOf("-Xjsr305=strict")
-		jvmTarget = "17"
-	}
-}
 
 tasks.withType<Test> {
 	useJUnitPlatform()
@@ -51,3 +44,4 @@ appengine {
 tasks.named("appengineStage").configure {
 	dependsOn("bootJar")
 }
+
