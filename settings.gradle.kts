@@ -9,4 +9,9 @@ pluginManagement {
             }
         }
     }
+
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
 }
