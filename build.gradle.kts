@@ -18,10 +18,13 @@ repositories {
 }
 
 dependencies {
-	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
 	implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0")
-	implementation("com.expediagroup:graphql-kotlin-spring-server:7.0.0-alpha.3")
+
+	// Everything needed to start a Spring Boot application
+	implementation("org.springframework.boot:spring-boot-starter")
+	// Everything needed to handle GraphQL queries
+	implementation("com.expediagroup:graphql-kotlin-spring-server:7.0.0-alpha.4")
 }
 
 tasks.withType<KotlinCompile> {

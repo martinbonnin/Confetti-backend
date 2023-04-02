@@ -9,27 +9,28 @@ import graphql.schema.GraphQLType
 import kotlinx.datetime.LocalDateTime
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
-import org.springframework.context.annotation.Bean
 import org.springframework.context.support.beans
-import org.springframework.stereotype.Component
 import kotlin.reflect.KClass
 import kotlin.reflect.KType
 
 
+// The Spring Boot entry point
 @SpringBootApplication
-class BackendApplication
+class ConfettiApplication
 
-class GraphQLQuery : Query {
+// The GraphQL entry point
+class RootQuery : Query {
     fun sessions(): List<Session> {
         return jsonData.sessions.map { it.toSession() }
     }
 }
 
+// The Jar entry point
 fun main(args: Array<String>) {
-    runApplication<BackendApplication>(*args) {
+    runApplication<ConfettiApplication>(*args) {
         addInitializers(beans {
             bean<ScalarSchemaGeneratorHooks>()
-            bean<GraphQLQuery>()
+            bean<RootQuery>()
         })
     }
 }
@@ -50,6 +51,7 @@ object LocalDateTimeCoercing : Coercing<LocalDateTime, String> {
     override fun serialize(dataFetcherResult: Any) = dataFetcherResult.toString()
 }
 
+// Add "LocalDateTime" as a new type in the GraphQL schema
 val LocalDateTimeScalar = GraphQLScalarType.newScalar()
     .name("LocalDateTime")
     .description("A type representing a formatted kotlinx.datetime.LocalDateTime")
