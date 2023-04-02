@@ -10,32 +10,36 @@ import kotlinx.datetime.LocalDateTime
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
+import org.springframework.context.support.beans
 import org.springframework.stereotype.Component
 import kotlin.reflect.KClass
 import kotlin.reflect.KType
 
 
-@Component
+@SpringBootApplication
+class BackendApplication
+
 class GraphQLQuery : Query {
     fun sessions(): List<Session> {
         return jsonData.sessions.map { it.toSession() }
     }
 }
 
-@SpringBootApplication
-class BackendApplication {
-    @Bean
-    fun hooks(): SchemaGeneratorHooks = object : SchemaGeneratorHooks {
-        override fun willGenerateGraphQLType(type: KType): GraphQLType? =
-            when (type.classifier as? KClass<*>) {
-                LocalDateTime::class -> LocalDateTimeScalar
-                else -> null
-            }
+fun main(args: Array<String>) {
+    runApplication<BackendApplication>(*args) {
+        addInitializers(beans {
+            bean<ScalarSchemaGeneratorHooks>()
+            bean<GraphQLQuery>()
+        })
     }
 }
 
-fun main(args: Array<String>) {
-    runApplication<BackendApplication>(*args)
+class ScalarSchemaGeneratorHooks: SchemaGeneratorHooks {
+    override fun willGenerateGraphQLType(type: KType): GraphQLType? =
+        when (type.classifier as? KClass<*>) {
+            LocalDateTime::class -> LocalDateTimeScalar
+            else -> null
+        }
 }
 
 object LocalDateTimeCoercing : Coercing<LocalDateTime, String> {
