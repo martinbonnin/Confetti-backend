@@ -8,9 +8,11 @@ import kotlinx.serialization.json.decodeFromStream
 @Serializable
 class Speaker(
     val id: String,
-    val firstName: String,
-    val lastName: String,
-)
+    private val firstName: String,
+    private val lastName: String,
+) {
+    fun name() = "$firstName $lastName"
+}
 
 @Serializable
 class Room(
@@ -27,7 +29,13 @@ class Session(
     val end: String,
     val speakerIds: List<String>,
     val roomId: String
-)
+) {
+    fun speakers() = speakerIds.map { speakerId ->
+        jsonData.speakers.find { it.id == speakerId }!!
+    }
+
+    fun room() = jsonData.rooms.find { it.id == roomId }!!
+}
 
 @Serializable
 class Data(
