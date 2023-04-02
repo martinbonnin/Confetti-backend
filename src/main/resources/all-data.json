@@ -4,941 +4,941 @@
       "id": "405586",
       "title": "Opening Keynote",
       "description": null,
-      "startsAt": "2023-04-13T09:00:00",
-      "endsAt": "2023-04-13T10:00:00",
-      "speakers": [
+      "start": "2023-04-13T09:00:00",
+      "end": "2023-04-13T10:00:00",
+      "speakerIds": [
         "80f570c3-27df-4756-b04a-76b2d6f220c4",
         "ebe735ce-e742-469b-8b23-2274fb20de7e",
         "0f769b19-d5f2-49fb-aa78-a086aa046b7e",
         "fd9a742d-2e4a-4c87-86ee-b8e03a0984a0"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "374446",
       "title": "Adopting Kotlin at Google scale",
       "description": "Kotlin is now the recommended programming language not only for Android programming but also for server-side JVM usage at Google, set to replace Java while still providing access to a large existing Java ecosystem. \r\n\r\nWith over 8 million lines of Kotlin code at Google (across server and Android), we've done a number of things to ensure our developers are successful with Kotlin. This talk will explore the reasons we've switched from Java to Kotlin and how we've made it a successful change.",
-      "startsAt": "2023-04-13T10:15:00",
-      "endsAt": "2023-04-13T11:00:00",
-      "speakers": [
+      "start": "2023-04-13T10:15:00",
+      "end": "2023-04-13T11:00:00",
+      "speakerIds": [
         "9ff98d8b-f176-49b9-a871-339cf8fad50b",
         "b94daf79-b12a-4257-8556-38d500bb414b"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "389527",
       "title": "Kotlin & Functional Programming: pick the best, skip the rest",
       "description": "Applying Functional Programming practices in your code can quickly lead to heated debates: Hard-core FP advocates strive for the hegemony of 'functions everywhere,' whereas more conservative developers want to stay far away from the abstractions and complexity they add. The question is, who is right?\r\n\r\nDrawing on my rich experience with FP, I will share my learnings with numerous teams I have led and coached over the years with the quest to unleash the potential FP offers while avoiding the pitfall of blindly proclaiming functions as the silver bullet to everything. \r\n\r\nWith many live-coded examples, we will explore the benefits of various functional concepts, ranging from basic higher-order functions, function composition, and Monads rigidly focusing on practical problems they solve rather than getting lost in academic considerations. Along the way, you will get a line-up of all the functional features Kotlin offers as well as the goodies functional libraries such as Arrow have in store.\r\n\r\nUltimately, we want to create code that our colleagues love to maintain and extend, for which FP should be a friend rather than a burden. At the end of this talk, you will have the recipe for accomplishing this quest.\r\n",
-      "startsAt": "2023-04-13T10:15:00",
-      "endsAt": "2023-04-13T11:00:00",
-      "speakers": [
+      "start": "2023-04-13T10:15:00",
+      "end": "2023-04-13T11:00:00",
+      "speakerIds": [
         "7df2c791-134f-4279-bb68-23f8899bb1ac"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "387990",
       "title": "Exploring the Testing Hyperpyramid with Kotlin and http4k",
       "description": "We all know that testing is an important factor in software development. \r\n\r\nBut.\r\n\r\nWhat if your tests could also work for you in dimensions that you didn’t even know existed? What if they could give you superpowers? Superpowers like easily running an entire bank on a single developer workstation, generating visual documentation of all the interactions across your fleet of microservices with a simple test plugin, or building reusable infrastructure which allow you to test your entire codebase at the unit, integration or end-to-end level.\r\n\r\nIn this talk, you'll learn about why your design and technology choices matter for testing and some Kotlin and http4k techniques that allow you to do much more by actually writing less test code. \r\n",
-      "startsAt": "2023-04-13T10:15:00",
-      "endsAt": "2023-04-13T11:00:00",
-      "speakers": [
+      "start": "2023-04-13T10:15:00",
+      "end": "2023-04-13T11:00:00",
+      "speakerIds": [
         "b3f34b70-b68f-4325-8ffe-b599217e1f4c",
         "4f7b8adb-fd36-4ada-80df-9a6997a7fa04"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "392002",
       "title": "Coroutines Beyond Concurrency",
       "description": "Kotlin coroutines are most known as an elegant and modern solution for managing asynchronous work. But due to their versatile design, coroutines can also be helpful for tasks outside of concurrency.\r\n\r\nWe will deep dive into the implementation of coroutines in Kotlin and learn why their asynchronous execution is not a language feature. Sequence builders and deeply recursive functions from the standard library are prime examples of synchronous coroutines. You will learn how they work and strengthen your understanding of coroutine machinery.\r\n\r\nWe will look at the parser combinator library Parsus. It uses coroutines to make parsers debuggable without code generation and process data of arbitrary depth without stack overflow errors. You will learn how to build libraries using similar techniques and how to avoid various pitfalls when working with low-level coroutines APIs.",
-      "startsAt": "2023-04-13T10:15:00",
-      "endsAt": "2023-04-13T11:00:00",
-      "speakers": [
+      "start": "2023-04-13T10:15:00",
+      "end": "2023-04-13T11:00:00",
+      "speakerIds": [
         "64861870-2216-42e0-baba-1441eb2fb61c"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "389447",
       "title": "Elevated Gardening with the Kotlin Ecosystem",
       "description": "At-home hydroponics is becoming more popular and accessible. Off-the-shelf solutions and detailed instructions on custom setups are now prevalent online. As an engineer, hydroponics also provides an interesting platform for technological experimentation. With tasty results!\r\n\r\nUsing the extensive Kotlin ecosystem, I was able to build a system which monitors and maintains my hydroponic garden. Come see how Kotlin helped build all of the different pieces: everything from embedded programming on a Raspberry PI, Jetpack Compose on both Android and web, async Spring Boot using coroutines, and all the pieces in between.",
-      "startsAt": "2023-04-13T10:15:00",
-      "endsAt": "2023-04-13T10:30:00",
-      "speakers": [
+      "start": "2023-04-13T10:15:00",
+      "end": "2023-04-13T10:30:00",
+      "speakerIds": [
         "e975c49f-668a-460a-8ce2-007a36bff35d"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "397494",
       "title": "Scale McDonald's with KMM",
       "description": "This talk aims to explain how we solved, having multiple teams for features, and the pitfalls of KMM development: from preferable app architecture to team requirements.\r\n\r\nWe will explain how we use KMM to help McDonald's to scale a digital product, including mobile ordering and loyalty programmes, to over 60 Markets globally.",
-      "startsAt": "2023-04-13T10:40:00",
-      "endsAt": "2023-04-13T10:55:00",
-      "speakers": [
+      "start": "2023-04-13T10:40:00",
+      "end": "2023-04-13T10:55:00",
+      "speakerIds": [
         "94684c34-df76-48c1-89cb-3ab689c83915",
         "5985cca0-e053-46cf-9002-48bded9a43e3"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "394725",
       "title": "Spring + Kotlin = Modern + Reactive + Productive",
       "description": "The combination of Spring and Kotlin is a winning combo for building modern, reactive, and productive servers.  This talk will walk through how Spring & Kotlin fit together with coroutines, R2DBC, Testcontainers, and Kotlin/JS for the web UI.  Come for Kotlin, stay for the ASCII art!\r\n\r\n",
-      "startsAt": "2023-04-13T11:15:00",
-      "endsAt": "2023-04-13T12:00:00",
-      "speakers": [
+      "start": "2023-04-13T11:15:00",
+      "end": "2023-04-13T12:00:00",
+      "speakerIds": [
         "f2617bc2-d35e-4fd7-9cea-02060f3e1608",
         "5c84d73d-1b13-4383-a7ec-e7ce3151794e"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "389979",
       "title": "Dissecting Kotlin: Unsealing the Sealed, the SAM, and Other Syntax",
       "description": "As Kotlin continues to evolve, so do answers to the question “What is idiomatic Kotlin?” In finding these answers, especially as new Kotlin language and library features are released, it helps to dive into the semantics and syntax of these features in order to understand how to use them and how they actually work.\r\n\r\nIn this session, we will look at some of the features released in Kotlin over the the last couple years, explain where and why you might utilize them, explore their implementations, discuss how these features fit into the broader ideas and themes of Kotlin, and hopefully, glean a few more ideas on “What is idiomatic Kotlin?”",
-      "startsAt": "2023-04-13T11:15:00",
-      "endsAt": "2023-04-13T12:00:00",
-      "speakers": [
+      "start": "2023-04-13T11:15:00",
+      "end": "2023-04-13T12:00:00",
+      "speakerIds": [
         "2d41d3fb-3321-4b47-a401-ae84a5de2423"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "385087",
       "title": "Arrow 2.0's Trajectory",
       "description": "Since the first commit 10 years ago Arrow has travelled a long path to reach 2.0, this talk will take us through the journey, decisions, and challenges that shaped Arrow.\r\n\r\nArrow aims to bring functional programming patterns to Kotlin in an idiomatic way, by leveraging Kotlin's DSL features to represent complex programs in elegant ways.",
-      "startsAt": "2023-04-13T11:15:00",
-      "endsAt": "2023-04-13T12:00:00",
-      "speakers": [
+      "start": "2023-04-13T11:15:00",
+      "end": "2023-04-13T12:00:00",
+      "speakerIds": [
         "1d0019f9-31b2-41c8-baa9-012f89d0df85"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "389455",
       "title": "Crash Course on the Kotlin Compiler",
       "description": "Whether you’re learning about writing compiler plugins, learning about the data structures/algorithms in real-life scenarios, or maybe just wondering why that little red squiggly shows up in your IntelliJ IDE, learning about the Kotlin compiler is your answer to all the above.  \r\n\r\nLet’s face it - learning about the Kotlin compiler is hard. Luckily, being able to look through various plugins can give insight to how the Kotlin compiler processes data at every phase, from human-readable Kotlin code to machine-readable bytecode. This session intends to expose Kotlin compiler functionality through reverse engineering compiler plugins and all the phases a plugin may intercept, giving us a conceptual, high-level overview what the the Kotlin compiler looks like. \r\n\r\nThe audience will hitch a ride with the source code fed through the phases of the Kotlin compiler to observe its transformations and optimizations frontend-to-backend: no better way to learn than going in deep! ",
-      "startsAt": "2023-04-13T11:15:00",
-      "endsAt": "2023-04-13T12:00:00",
-      "speakers": [
+      "start": "2023-04-13T11:15:00",
+      "end": "2023-04-13T12:00:00",
+      "speakerIds": [
         "a4d26fc1-9707-4c86-bc82-70b7ce05823c"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "387428",
       "title": "Kotlin Multiplatform in Google Workspace",
       "description": "Sharing multiplatform business logic enables Google Workspace to deliver consistent experiences to all clients (Android, iOS, & Web).  Google has been doing this for a little over a decade with Java.  This talk will briefly look at the technology we use now and why we are investing in Kotlin Multiplatform as a long term strategy.",
-      "startsAt": "2023-04-13T11:15:00",
-      "endsAt": "2023-04-13T11:30:00",
-      "speakers": [
+      "start": "2023-04-13T11:15:00",
+      "end": "2023-04-13T11:30:00",
+      "speakerIds": [
         "4f541219-75cb-4e12-a1e9-4d9382652d0d"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "458383",
       "title": "Coding for Testability",
       "description": "This Code Lab is for anyone working on a project that has low test coverage, difficulty testing parts of the application, or tests that must constantly change as a result of code changes. During the lab, we’ll explore the abstract concepts, patterns, and techniques necessary to write effective, low-maintenance tests.\r\nUnit Isolation – Using dependency injection, dependency inversion, and mocks / fakes, we’ll practice isolating our units under test.\r\nTesting Internal Functionality – We’ll talk about the concept of coverage and we’ll learn how to test all of those pesky private functions without using reflection or @VisibleForTesting!\r\nCreating Seams – We don’t always get to create our code from scratch. In this section, we’ll work on taking an existing code base and introducing a seam that allows us to isolate the code that we want to test.",
-      "startsAt": "2023-04-13T11:15:00",
-      "endsAt": "2023-04-13T12:00:00",
-      "speakers": [
+      "start": "2023-04-13T11:15:00",
+      "end": "2023-04-13T12:00:00",
+      "speakerIds": [
         "397779a7-72af-4907-9675-bcdd977dc0ab"
       ],
-      "roomId": 33509
+      "roomId": "33509"
     },
     {
       "id": "463662",
       "title": "AWS Amplify and Project Setup",
       "description": "In this part of the workshop, we will do an introduction, setup AWS Amplify, and an Android Studio project by checking out the project over Git.",
-      "startsAt": "2023-04-13T11:15:00",
-      "endsAt": "2023-04-13T12:00:00",
-      "speakers": [
+      "start": "2023-04-13T11:15:00",
+      "end": "2023-04-13T12:00:00",
+      "speakerIds": [
         "f3198ab2-5754-4ec4-a18e-3f32146e5c76",
         "261f99e8-0dd0-4136-8764-6a3102e675c5",
         "4f18f996-aa05-4439-84b6-8917cbb93178"
       ],
-      "roomId": 33510
+      "roomId": "33510"
     },
     {
       "id": "390210",
       "title": "5 years of Multiplatform Settings",
       "description": "Almost exactly 5 years ago I started writing my first Kotlin Multiplatform library. Multiplatform Settings started from the simple idea that Android and iOS had very similar key-value storage APIs, and maybe it’d be nice to wrap them in a common API. It’s since grown to cover more platforms and include additional APIs to take advantage of Kotlin features.\r\n\r\nI’ll talk about my journey of creating the library and maintaining it over that time, and some of the things I’ve learned as it went from 0.1 to 1.0. You’ll come away inspired to write a library of your own!\r\n",
-      "startsAt": "2023-04-13T11:40:00",
-      "endsAt": "2023-04-13T11:55:00",
-      "speakers": [
+      "start": "2023-04-13T11:40:00",
+      "end": "2023-04-13T11:55:00",
+      "speakerIds": [
         "7a1d47f2-dfd1-4af1-b097-5c415f9b29c3"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "389291",
       "title": "Kotlin Multiplatform Conversions at Android Jetpack Scale",
       "description": "This is a case study of how we converted several Jetpack libraries to Kotlin Multiplatform as part of our ongoing experimentation with the multiplatform technology.  \r\n\r\nKotlin Multiplatform makes it possible to convert existing JVM specific code to be multiplatform. Doing so is mostly straightforward, but requires extra design considerations, between common and platform specific code. Further, doing so with an established Android library used by millions of existing apps, and utilizing JVM specific APIs as part of its public interfaces brings a whole new set of unique challenges.\r\n\r\nWe'll discuss techniques we've adopted for refactoring platform specific code to common code, highlighting some of the features of Kotlin Multiplatform including expect/actuals and hierarchical project structures.\r\n\r\nWe'll also cover some pitfalls, including missing multiplatform libraries, dealing with binary and source compatibility, and handling hard dependencies on JVM-specific code in your public interfaces.\r\n\r\nPrior knowledge of Kotlin and Kotlin Multiplatform are recommended.",
-      "startsAt": "2023-04-13T13:00:00",
-      "endsAt": "2023-04-13T13:45:00",
-      "speakers": [
+      "start": "2023-04-13T13:00:00",
+      "end": "2023-04-13T13:45:00",
+      "speakerIds": [
         "6b8c2666-a975-4a5f-9ee0-5f28f3e445ee",
         "5c84d73d-1b13-4383-a7ec-e7ce3151794e"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "368997",
       "title": "Meta-programming with KSP and Kotlin compiler plugins",
       "description": "Meta-programming allows us developers to augment the code we write in various ways. Thanks to the Kotlin compiler team, anyone can enhance the Kotlin compilation process.\r\n\r\nLearn how to use KSP, how to write Kotlin compiler plugins and when to choose between either of them. ",
-      "startsAt": "2023-04-13T13:00:00",
-      "endsAt": "2023-04-13T13:45:00",
-      "speakers": [
+      "start": "2023-04-13T13:00:00",
+      "end": "2023-04-13T13:45:00",
+      "speakerIds": [
         "969813cd-0231-4310-9c61-745967bd94c5"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "386295",
       "title": "Replacing SQL with Kotlin's 'dataframe' on the Las Vegas Strip",
       "description": "Casinos have long been pioneers in brick & mortar customer spend tracking and subsequent 1-to-1 customized marketing. Gamble more, and you'll receive more free meals, rooms, suites, event tickets, limos and of course, free money to gamble with. Most internal workflows for executing these marketing campaigns are SQL-based, often hidden underneath extremely expensive \"marketing automation systems\" or complex ETL processes.\r\n\r\nSeeking a simpler, more flexible alternative, I wanted to migrate as much as possible from SQL to code. Specifically, Kotlin code. Fortunately, Kotlin's dataframe library, although still pre-beta, was in active development and was gaining features. This turned out to be the perfect solution -- and a major improvement over the most obvious alternative, Python's 'pandas.'\r\n\r\nWe'll walk through how I reduced reliance on SQL by about 80-90% and replaced it with a faster, easier, more flexible, integratable process based upon dataframe. We'll also review some of dataframe's top features in compiled code and in Jupyter notebooks and discuss why it is so much easier, less error-prone, and just way more fun than 'pandas' can ever hope to be.",
-      "startsAt": "2023-04-13T13:00:00",
-      "endsAt": "2023-04-13T13:45:00",
-      "speakers": [
+      "start": "2023-04-13T13:00:00",
+      "end": "2023-04-13T13:45:00",
+      "speakerIds": [
         "0a06841a-f5f1-4f66-84fa-ae53ab2b0cb8"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "403459",
       "title": "The Layout Animations Show",
       "description": "Animations are a must in most applications, be it desktop or mobile, and what are applications made of? Layouts! So let's learn how to make some fun animated layouts!\r\n\r\nIn this talk, we'll delve into the Compose Multiplatform Animations APIs, with a focus on layouts, like Box, Column and Row. We'll take a look at how and when to use some of those APIs, like AnimatedContent, Crossfade and LookAheadLayout; and how to customize them, using AnimationSpec and Easing. And don't worry, we'll have several examples in both mobile and desktop to showcase all of this.  \r\n\r\nAfter this talk, you should have a better understanding of how to animate layouts and how to customize those animations; getting you one step closer to your wild UI dreams!\r\n\r\nKeep it fun, keep it animated! ",
-      "startsAt": "2023-04-13T13:00:00",
-      "endsAt": "2023-04-13T13:45:00",
-      "speakers": [
+      "start": "2023-04-13T13:00:00",
+      "end": "2023-04-13T13:45:00",
+      "speakerIds": [
         "94ba4fa4-aed7-482e-8096-f61090d5bb4d"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "370179",
       "title": "The Art of KMP: how I learned backend development with Kotlin and why you should too",
       "description": "KMP is not only KMM. You can also build web and desktop apps! And Kotlin doesn’t only work for Android, as many may think. You can build a backend for your app.\r\n\r\nIf you’re looking for a side project or just curious, I would suggest you try backend development with Kotlin. When I was starting with KMPizza I had a number of questions:\r\n\r\n- Is it reasonable/worth it to start learning Backend development with Kotlin? May be there is something different from Kotlin? I've heard good things about Go. Or should I rather choose Java frameworks as they are more mature? \r\n \r\n- Which framework is good to choose for a beginner? Kotlin Spring probably benefits from the maturity of Java Spring, whereas I have seen and heard more about Ktor implementations. Also using Ktor in the client side in KMM may be a good addition to learning backend with Ktor. \r\n \r\n- Any tutorials/starter projects/guides/learning kits?\r\n \r\nIn this talk I’m going to share what answers I found and how I learned backend development with Kotlin.",
-      "startsAt": "2023-04-13T13:00:00",
-      "endsAt": "2023-04-13T13:15:00",
-      "speakers": [
+      "start": "2023-04-13T13:00:00",
+      "end": "2023-04-13T13:15:00",
+      "speakerIds": [
         "6a7c1f8a-784d-46be-8840-9cf519c4bc78"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "389144",
       "title": "Put your Ktor Microservices on Kubernetes without a JVM!",
       "description": "We want our microservices to be fast as lightning, and their container images should be the smallest they can be. In this lightning talk, we see how to compile our simple Ktor application to a Linux executable using Kotlin Native. We dockerize it and run it in Kubernetes. All in just 15 minutes!",
-      "startsAt": "2023-04-13T13:25:00",
-      "endsAt": "2023-04-13T13:40:00",
-      "speakers": [
+      "start": "2023-04-13T13:25:00",
+      "end": "2023-04-13T13:40:00",
+      "speakerIds": [
         "4de84656-0368-405d-8688-9142fd388971"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "368995",
       "title": "Confetti: building a Kotlin Multiplatform conference app in 40min",
       "description": "In this talk Martin and John will live code the development of Confetti, a fullstack conference app using a graphql-kotlin backend and KMM based mobile clients\r\n\r\nThe talk will cover\r\n- development of the graphql-kotlin backend\r\n- use of Apollo library and it's Kotlin Multiplatform support allowing addition of GraphQL queries and related logic in code shared between iOS and Android clients.\r\n- development of mobile clients that consume the shared KMM code (using Jetpack Compose on Android and SwiftUI on iOS)",
-      "startsAt": "2023-04-13T14:00:00",
-      "endsAt": "2023-04-13T14:45:00",
-      "speakers": [
+      "start": "2023-04-13T14:00:00",
+      "end": "2023-04-13T14:45:00",
+      "speakerIds": [
         "0392772c-28d4-47f6-bd39-47d743fb4a81",
         "56fda597-4927-4d25-9a80-4795d15ef080"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "389145",
       "title": "Untangling Coroutine Testing",
       "description": "Coroutines are embraced on Android as the tool to perform asynchronous operations and manage threading in your apps. Testing them requires some extra work and a solid understanding of coroutine concepts like scopes and dispatchers.\r\n\r\nIn this talk, we’ll cover the new guidance we have for testing coroutines on Android, using the latest available testing APIs introduced in kotlinx.coroutines 1.6. We'll go from the simplest cases all the way to Flows, look at Android-specific problems you might face, and learn best practices and patterns you can use in your tests.",
-      "startsAt": "2023-04-13T14:00:00",
-      "endsAt": "2023-04-13T14:45:00",
-      "speakers": [
+      "start": "2023-04-13T14:00:00",
+      "end": "2023-04-13T14:45:00",
+      "speakerIds": [
         "1916ae1c-96d7-480f-9eed-bf5dce444441"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "387149",
       "title": "7±2 things you didn't know about Exposed",
       "description": "While working on a course on the Exposed ORM framework, I had to dive into some nitty-gritty details of its implementation, learned about some of its less documented features and spoke with the maintainers of the framework directly, and in this talk, I'd like to share some key points that I've learned.",
-      "startsAt": "2023-04-13T14:00:00",
-      "endsAt": "2023-04-13T14:45:00",
-      "speakers": [
+      "start": "2023-04-13T14:00:00",
+      "end": "2023-04-13T14:45:00",
+      "speakerIds": [
         "f657cb50-4f4d-4a48-8de8-f13c55c82db6"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "390204",
       "title": "Showkase: Automated UI Infrastructure in Jetpack Compose using KSP",
       "description": "Declarative UI frameworks encourage the creation of reusable components that can be used in different parts of the app. We all know that reusability is a good engineering practice but what often ends up happening is a little more nuanced:\r\n\r\n- As developers add new UI components, the codebase often ends up with hundreds of components that are hard to visualize.\r\n- Discovery is hard and there is no easy way to search for all your components. As a result, your codebase often ends up with duplicate components that offer similar functionality.\r\n- The same problems extend to other aspects of your design system like colors, typography, icons, etc.\r\n- In order to get around this, most mobile teams build their version of a “Component Browser” that lets you visualize your design system. This is often maintained manually with little to no tooling around it.\r\n\r\nIn order to solve these problems for our team and for the broader Android community, we (Airbnb) built and open-sourced Showkase. Showkase is an annotation-processor based Android library that helps you organize, discover, visualize and automatically screenshot test Jetpack Compose UI elements. \r\n\r\nIn this talk, we will dive deeper into how we used a KSP based system to solve the problems listed above. We will look into the internals of Showkase and how all this \"magic\" works. Lastly, we'll look at what to expect from the next few versions of Showkase and how we plan to extend it.\r\n\r\nGithub - [https://github.com/airbnb/Showkase](https://github.com/airbnb/Showkase)",
-      "startsAt": "2023-04-13T14:00:00",
-      "endsAt": "2023-04-13T14:45:00",
-      "speakers": [
+      "start": "2023-04-13T14:00:00",
+      "end": "2023-04-13T14:45:00",
+      "speakerIds": [
         "0cdb0d8a-a6ae-49d5-8871-eec72234922c"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "390052",
       "title": "Interstellar social simulation framework and game development in Kotlin",
       "description": "Many social science researches use agent-based modeling (ABM) to explore the outcome of social mechanisms in hypothetical scenarios. Taking this one step further, it would be interesting to simulate interstellar societies. Under any interstellar scenario, physics tells us that we should at least consider special relativity. For example, there is a time delay constrained by the speed of light, and a moving agent experiences a time dilation effect. Since conventional simulation toolkits are not suitable for this specific scenario, we have created our framework in Kotlin, \"Relativitization\". We have constructed some models and a turn-based strategy game based on the framework.\r\n\r\nIn this talk, we will share our experience in utilizing Kotlin and its ecosystem for our social simulation framework. We try our best to keep this \"purely Kotlin\": kotlinx-coroutine for parallelization, kotlinx-serialization for copying/loading/saving data, dataframe for analyzing the output, ktor for the server-client architecture of the game, etc. Of course, sometimes it is unavoidable to rely on Java dependencies, like we choose libGDX for game GUI, and it integrates well with Kotlin. We believe our case shows that Kotlin is reasonably mature, performant, and user-friendly for social scientists who work in the discipline of social simulation.\r\n\r\n",
-      "startsAt": "2023-04-13T14:00:00",
-      "endsAt": "2023-04-13T14:15:00",
-      "speakers": [
+      "start": "2023-04-13T14:00:00",
+      "end": "2023-04-13T14:15:00",
+      "speakerIds": [
         "bb812f58-15d9-4d3f-ba71-d7c70598d747"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "463663",
       "title": "Adding Authentication",
       "description": "In this part of the workshop you will add login, registration and many common use cases  for the user.",
-      "startsAt": "2023-04-13T14:00:00",
-      "endsAt": "2023-04-13T14:45:00",
-      "speakers": [
+      "start": "2023-04-13T14:00:00",
+      "end": "2023-04-13T14:45:00",
+      "speakerIds": [
         "4f18f996-aa05-4439-84b6-8917cbb93178",
         "261f99e8-0dd0-4136-8764-6a3102e675c5",
         "f3198ab2-5754-4ec4-a18e-3f32146e5c76"
       ],
-      "roomId": 33510
+      "roomId": "33510"
     },
     {
       "id": "388131",
       "title": "Nicer data transformation with KopyKat and Optics",
       "description": "Data classes are incredibly useful when modeling our domain in an immutable way. The Kotlin compiler gives us many niceties, including 'copy' to create a new value based on a previous one. However, this 'copy' often falls short. In this talk we explore two alternatives: KopyKat, a plug-in to generate additional variations of 'copy', and Arrow Optics, a whole framework to transform this immutable data.",
-      "startsAt": "2023-04-13T14:25:00",
-      "endsAt": "2023-04-13T14:40:00",
-      "speakers": [
+      "start": "2023-04-13T14:25:00",
+      "end": "2023-04-13T14:40:00",
+      "speakerIds": [
         "6194c065-3bcc-42b5-b1d1-9a25af6b86be"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "405587",
       "title": "Compose Multiplatform",
       "description": null,
-      "startsAt": "2023-04-13T15:15:00",
-      "endsAt": "2023-04-13T16:00:00",
-      "speakers": [
+      "start": "2023-04-13T15:15:00",
+      "end": "2023-04-13T16:00:00",
+      "speakerIds": [
         "a82c6942-6e2b-4d80-9883-0b84b932d6ef",
         "9d505523-0837-4efa-a5e4-94479bb7fbfa"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "372516",
       "title": "Practical Tips For Legacy Java Codebases Conversion Into Kotlin",
       "description": "In this session, I will share some ideas and suggestions for turning a codebase in Java into Kotlin.\r\n\r\nIt may look simple by just taping Ctrl+Shift+Alt+K to turn a Java Code into Kotlin File. Still, if we want to use the full power of kotlin and steer the code into idiomatic kotlin, it would require much attention.\r\n\r\nSpecifically in parts when kotlin brings something new entirely to the table, from extension functions for utilities to adding expressiveness through Kotlin standard library functions and much more.\r\n\r\nConverting Legacy Java Projects to Kotlin is a must to use the best of Kotlin features such as coroutines, sealed classes, extension functions, and many other features to help software maintainability, testability, and other pleasing qualities we search for in software.",
-      "startsAt": "2023-04-13T15:15:00",
-      "endsAt": "2023-04-13T16:00:00",
-      "speakers": [
+      "start": "2023-04-13T15:15:00",
+      "end": "2023-04-13T16:00:00",
+      "speakerIds": [
         "c9cf1bd9-64e9-4b58-a26f-4778c7c499f2"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "387306",
       "title": "Writing backend APIs in a functional programming style",
       "description": "This talk covers a pattern for writing backend APIs in a functional programming style, with a focus on separating business logic from I/O. I will showcase how Kotlin's structured concurrency features make separating business logic from I/O easier. By decoupling I/O and business logic, we can robustly handle errors while making it easy to modify our code in response to changing product requirements.\r\n\r\nTo illustrate these patterns, we'll walk through the code for a gRPC endpoint that calls three services using the functional-core, imperative-shell pattern. Then we'll build on that example by adding new product requirements to demonstrate how structured concurrency and lazy loading help us keep business logic and I/O separate.\r\n",
-      "startsAt": "2023-04-13T15:15:00",
-      "endsAt": "2023-04-13T16:00:00",
-      "speakers": [
+      "start": "2023-04-13T15:15:00",
+      "end": "2023-04-13T16:00:00",
+      "speakerIds": [
         "92519528-c12b-4cad-a863-6f9b220f9609"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "400205",
       "title": "How we test concurrent algorithms in Kotlin Coroutines",
       "description": "Writing a good and robust concurrent test may be as challenging as implementing the algorithm, if not more so. In Kotlin Coroutines, we maintain a dozen non-trivial concurrent data structures, such as queues, semaphores, and channels. We need to test them properly. Straightforward stress tests likely do not catch all bugs and flack. Such testing quality is below the bar. We need a way to write concurrent tests in a handy, declarative way, keeping in mind \"what to test,\" not \"how.\"\r\n\r\nAt JetBrains, we've developed Lincheck, a unique framework that makes writing concurrent tests a piece of cake. Users just need to list all the data structure operations, and Lincheck verifies whether these operations are thread-safe or not. In this talk, I will share how we use Linchek in Kotlin Coroutines, how to apply it to your setting, and briefly cover the framework internals.",
-      "startsAt": "2023-04-13T15:15:00",
-      "endsAt": "2023-04-13T16:00:00",
-      "speakers": [
+      "start": "2023-04-13T15:15:00",
+      "end": "2023-04-13T16:00:00",
+      "speakerIds": [
         "ffcac92c-d9e9-48e9-8de0-4e4e684c58e2"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "458389",
       "title": "Introduction to Context Receivers",
       "description": "You can only call suspending functions from within the scope of a coroutine, but you can only invoke `@Composable` functions from within specific composition contexts.\r\n\r\n\r\nWith the new context receivers functionality in Kotlin, you gain another tool with which you can safely and concisely build new functionality in your app.\r\n\r\n\r\nAt the end of this Code Lab, you will have some hands-on experience using context receivers and an understanding of the specific scenarios in which they might be useful.\r\n\r\n\r\nThe examples presented here won't drive you to rewrite your entire codebase, but they might help inspire your next generation of Kotlin libraries.",
-      "startsAt": "2023-04-13T15:15:00",
-      "endsAt": "2023-04-13T16:00:00",
-      "speakers": [
+      "start": "2023-04-13T15:15:00",
+      "end": "2023-04-13T16:00:00",
+      "speakerIds": [
         "5f919344-b492-4bc7-8f0d-7cfc9f31e545"
       ],
-      "roomId": 33509
+      "roomId": "33509"
     },
     {
       "id": "408450",
       "title": "Reflections on a Year of Compose",
       "description": "The promise of Compose for the Android ecosystem is extraordinary. Wanting to be ready to adopt it as soon as possible, the Pinterest team began exploring Compose integration in late 2021. Fast forwarding a year and half we’ve learned so much but have decided not to fully adopt Compose at this time. This decision is not the success story we expected to be telling after a year of investment, but sometimes our greatest learnings can come from moments where things didn't go quite to plan. Join us in this retrospective to learn what went right, what went wrong, and what we would do differently if we had the chance.\r\n\r\n",
-      "startsAt": "2023-04-13T16:15:00",
-      "endsAt": "2023-04-13T17:00:00",
-      "speakers": [
+      "start": "2023-04-13T16:15:00",
+      "end": "2023-04-13T17:00:00",
+      "speakerIds": [
         "814138cf-aa0c-48e2-8f38-52b31c29a45b"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "396049",
       "title": "Scale to Zero with Spring + GraalVM or WebAssembly",
       "description": "Cloud can be expensive, complex and consume a lot of resources due to server instances waiting for incoming requests. To avoid those issues, Sébastien is going to share 2 ways of deploying your Kotlin web applications in a scale-to-zero fashion with more flexibility than Serverless platforms like Amazon Lambda.\r\n\r\nSébastien will talk about the GraalVM native support introduced by Spring Boot 3.0 which allows you to compile your Kotlin/JVM applications into a native executables that start instantly, have a reduced memory consumption and can produce optimized container images.\r\n\r\nBut Sébastien is also exploring how WebAssembly could be used instead of traditional container images as a way to deploy Kotlin workloads to the Cloud and the Edge in a scale-to-zero fashion. This is possible with Kotlin/Wasm, the incubating Kotlin support for WebAssembly initially designed to run in the browser. \r\n\r\nYou will see it in action combined with KoWasm, an experimental project created by Sébastien, in order to build server-side applications leveraging WASI (Web Assembly System Interface). ",
-      "startsAt": "2023-04-13T16:15:00",
-      "endsAt": "2023-04-13T17:00:00",
-      "speakers": [
+      "start": "2023-04-13T16:15:00",
+      "end": "2023-04-13T17:00:00",
+      "speakerIds": [
         "ce11156d-9a41-4f12-b236-3bdac0ee3a2a"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "389450",
       "title": "Declarative Test Setup",
       "description": "A good test should be fast, reliable, and concise. Unfortunately end-to-end API tests can often suffer in all 3 areas. Large amounts of test setup required by end-to-end API tests can make them slow, flaky, and verbose. But what’s the fix? At Datasite, we built a Kotlin DSL!\r\n\r\nInstead of writing repetitive, imperative code to perform test environment setup, we designed a DSL which declaratively defines the environment components needed for end-to-end tests. This allows us to optimize when and how the setup is performed, improves standardization of the environment, and simplifies the code required for test setup.\r\n\r\nCome learn how Datasite built this custom Kotlin DSL. Learn how we made it extensible, idempotent, and performant and how it helped us standardize end-to-end test configuration across dozens of backend services.",
-      "startsAt": "2023-04-13T16:15:00",
-      "endsAt": "2023-04-13T17:00:00",
-      "speakers": [
+      "start": "2023-04-13T16:15:00",
+      "end": "2023-04-13T17:00:00",
+      "speakerIds": [
         "e975c49f-668a-460a-8ce2-007a36bff35d"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "372359",
       "title": "Adventures building a Kotlin Multiplatform Benchmarking Library",
       "description": "This talk describes adventures in building a Kotlin Multiplatform Library for Benchmarking and Tracing. \r\n\r\nThe goal is to be able to produce trace sections that show up in Platform native tracing toolkits (Perfetto, Instruments), and\r\n micro-benchmark critical sections of code.\r\n\r\nWe will explore how to effectively integrate with platform specific toolkits & infrastructure, and Swift interop. We will also look at examples on how this library was used to measure and catch regressions when building Kotlin Multiplatform libraries in Jetpack.",
-      "startsAt": "2023-04-13T16:15:00",
-      "endsAt": "2023-04-13T17:00:00",
-      "speakers": [
+      "start": "2023-04-13T16:15:00",
+      "end": "2023-04-13T17:00:00",
+      "speakerIds": [
         "9caa9624-350a-4e69-8ac4-88db14bdb5bf"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "463664",
       "title": " Adding Storage",
       "description": "In this part you will see how you can add image upload mechanism to the S3 buckets.",
-      "startsAt": "2023-04-13T16:15:00",
-      "endsAt": "2023-04-13T17:00:00",
-      "speakers": [
+      "start": "2023-04-13T16:15:00",
+      "end": "2023-04-13T17:00:00",
+      "speakerIds": [
         "4f18f996-aa05-4439-84b6-8917cbb93178",
         "f3198ab2-5754-4ec4-a18e-3f32146e5c76",
         "261f99e8-0dd0-4136-8764-6a3102e675c5"
       ],
-      "roomId": 33510
+      "roomId": "33510"
     },
     {
       "id": "389731",
       "title": "The Changing Grain of Kotlin",
       "description": "A programming language, like wood, has a ”grain”. In both programming and carpentry, when you work with the grain, things go smoothly; when you work against the grain, things are more difficult. \r\n\r\nA language's grain forms as its designers and users learn how language features interact, and encode their understanding and preferences in libraries and tools. It changes over time, as new language features don’t just add to the language, they interact with existing features. The new features change the relative value of the old features.\r\n\r\nJoin Nat and Duncan, authors of Java to Kotlin: A Refactoring Guidebook, as they explore the grain of Kotlin, tracing its evolution from the first released version through to the present day. They will show how their coding style became outdated as the language changed, how they modernized it, and why it is important to refactor existing code to make the most of the changing grain.\r\n",
-      "startsAt": "2023-04-13T17:15:00",
-      "endsAt": "2023-04-13T18:00:00",
-      "speakers": [
+      "start": "2023-04-13T17:15:00",
+      "end": "2023-04-13T18:00:00",
+      "speakerIds": [
         "30cc8bd5-49a1-4609-bf70-ff5e6b12b3c2",
         "c471c1b0-53d7-45cf-a12c-340714972d83"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "389810",
       "title": "Kotlin likes to Demoparty",
       "description": "The demoscene is an international computer art subculture focused on producing demos: self-contained computer programs that show off programming, visual art, and musical skills. The `scene` has its roots in the home computer revolution of the 80s and is the first digital culture officially accepted as cultural heritage by the UNESCO.\r\n\r\nThis talk will show how to build a demo using Kotlin. We'll explore the demoscene's rich history and see how to write various effects from the old-school 80s and early 90s to the advent of so-called 'chunky-pixel' effects in the mid-90s. Then, we'll move on to more modern techniques, like procedural content generation and shader code. \r\n\r\nWe'll close by looking at how you can combine these techniques into a cohesive production and explore how demoscene know-how can be applied to modern app development.\r\n",
-      "startsAt": "2023-04-13T17:15:00",
-      "endsAt": "2023-04-13T18:00:00",
-      "speakers": [
+      "start": "2023-04-13T17:15:00",
+      "end": "2023-04-13T18:00:00",
+      "speakerIds": [
         "878ec0bb-f4d7-4b83-a9af-ff6e359a35dc"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "368953",
       "title": "Meetup with KMM Libraries",
       "description": "When Meetup.com first adopted Kotlin Multiplatform Mobile (KMM) for Android and iOS app development, we had concerns. Earlier attempts at Kotlin multiplatform sample projects had not gone smoothly years ago.\r\n\r\nPreviously, writing shared modules for Android and iOS had involved creating many interfaces using the \"expect\" and \"actual\" keywords. This meant the shared code didn't really feel identical.\r\n\r\nThis time, things were different. We found a robust ecosystem of new and powerful libraries that worked equally for Android using Kotlin/JVM and for iOS using Kotlin/Native. These libraries made development quite a lot easier than we had expected. Our Meetup for Organizers app has been a success largely as a result of KMM.",
-      "startsAt": "2023-04-13T17:15:00",
-      "endsAt": "2023-04-13T18:00:00",
-      "speakers": [
+      "start": "2023-04-13T17:15:00",
+      "end": "2023-04-13T18:00:00",
+      "speakerIds": [
         "b585543d-3bcc-4485-808e-e57f9e2a192b"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "388978",
       "title": "Transforming Farmer's Lives Using Android in Kenya",
       "description": "Imagine if you could change the lives of farmers using Android. We did that! This is the story of how Apollo Agriculture relies on two Android apps, entirely written in Kotlin, are offline first, and heavily rely on Server Side Driven UI to render the UI components.\r\n\r\nI'll dive deeply into the challenges we face when developing apps for devices with low memory, low internet bandwidth, offline-first approach, and some of the critical lessons we've learned so far. This session will show how our server-side UI approach with Jetpack Compose works, the reasons that made us adapt this, and the implementation details of our stateful approach in building UI Components with compose. Additionally, the session will cover the tools we use to make this possible: an internal tool called \"Choice Expressions\" and an implementation of JsonSchema, both used to build UIs from a set of conditions.\r\n",
-      "startsAt": "2023-04-13T17:15:00",
-      "endsAt": "2023-04-13T18:00:00",
-      "speakers": [
+      "start": "2023-04-13T17:15:00",
+      "end": "2023-04-13T18:00:00",
+      "speakerIds": [
         "9ad25dcf-9587-423b-bd2e-415e6757286c"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "458793",
       "title": "Coding for Testability",
       "description": "This Code Lab is for anyone working on a project that has low test coverage, difficulty testing parts of the application, or tests that must constantly change as a result of code changes. During the lab, we’ll explore the abstract concepts, patterns, and techniques necessary to write effective, low-maintenance tests.\r\nUnit Isolation – Using dependency injection, dependency inversion, and mocks / fakes, we’ll practice isolating our units under test.\r\nTesting Internal Functionality – We’ll talk about the concept of coverage and we’ll learn how to test all of those pesky private functions without using reflection or @VisibleForTesting!\r\nCreating Seams – We don’t always get to create our code from scratch. In this section, we’ll work on taking an existing code base and introducing a seam that allows us to isolate the code that we want to test.",
-      "startsAt": "2023-04-13T17:15:00",
-      "endsAt": "2023-04-13T18:00:00",
-      "speakers": [
+      "start": "2023-04-13T17:15:00",
+      "end": "2023-04-13T18:00:00",
+      "speakerIds": [
         "397779a7-72af-4907-9675-bcdd977dc0ab"
       ],
-      "roomId": 33509
+      "roomId": "33509"
     },
     {
       "id": "387925",
       "title": "Six Impossible Things",
       "description": "?Why, sometimes I've believed as many as six impossible things before breakfast,\" the Queen told Alice on her adventures through the looking glass. Only six? In software development we believe impossible things all the time, no matter the time of day! In this talk, however, we are going to take a look at six specific impossible things that shape the limits of what we can develop, all the way from the smallest detail of integer representation to the minefield of task estimation and prioritisation, via the uncertainty of distributed systems and the limits of computability. Once we know our limits, we can work within them to create solutions rather than problems.",
-      "startsAt": "2023-04-14T09:00:00",
-      "endsAt": "2023-04-14T10:00:00",
-      "speakers": [
+      "start": "2023-04-14T09:00:00",
+      "end": "2023-04-14T10:00:00",
+      "speakerIds": [
         "bc20c5a9-2d7e-4830-827f-8919be0eba88"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "398544",
       "title": "Coroutines and Loom behind the scenes",
       "description": "OpenJDK Project Loom is in preview and will become stable any time soon. It offers seemingly similar benefits to Kotlin Coroutines, raising a lot of questions on Kotlin Coroutines and Project Loom coexistence and future. In this session, we'll examine and compare the goals that were put forth during the design of Kotlin Coroutines and Project Loom, we'll look behind the scenes into how these different goals translated into different implementations with different tradeoffs both in the programming model and in the performance. You'll learn which kind of applications should benefit most from the Kotlin Coroutines and from the Project Loom, respectively, how they'll coexist in the future, and where you can benefit from both of them.",
-      "startsAt": "2023-04-14T10:15:00",
-      "endsAt": "2023-04-14T11:00:00",
-      "speakers": [
+      "start": "2023-04-14T10:15:00",
+      "end": "2023-04-14T11:00:00",
+      "speakerIds": [
         "80f570c3-27df-4756-b04a-76b2d6f220c4"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "390141",
       "title": "You can do desktop too!",
       "description": "Not everyone does server-side or mobile. Many developers still create desktop applications. And struggle to make them available across all major operating systems. We've been in the same boat several years ago and chose browser-based UI for the Toolbox App.\r\nFast-forward in 2021, we converted our app to Kotlin and Compose Multiplatform. If only we had them available right from the start!\r\nIn my talk I share lessons we learned migrating the application on-the-fly while being the first users of the new UI framework at the same time, and provide tips and tricks on how to start new desktop application these days (spoiler alert: with Kotlin and Compose)",
-      "startsAt": "2023-04-14T10:15:00",
-      "endsAt": "2023-04-14T11:00:00",
-      "speakers": [
+      "start": "2023-04-14T10:15:00",
+      "end": "2023-04-14T11:00:00",
+      "speakerIds": [
         "e21ee3c3-2e72-4fd2-8e5c-30511e30fe66"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "387739",
       "title": "AWS SDK for Kotlin overview",
       "description": "Amazon is building the AWS SDK for Kotlin, currently in developer preview. By supporting async operations via suspend functions, DSL-style builders, and multi-platform architecture, we aim to provide first-class Kotlin support for AWS services and features. Come take a look at how to configure and use the SDK, advanced features, and what’s on our roadmap for the future.",
-      "startsAt": "2023-04-14T10:15:00",
-      "endsAt": "2023-04-14T11:00:00",
-      "speakers": [
+      "start": "2023-04-14T10:15:00",
+      "end": "2023-04-14T11:00:00",
+      "speakerIds": [
         "9f2b5627-1d42-423f-a6e9-f5e5e356edee"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "447939",
       "title": "K2 Compiler plugins",
       "description": "This talk will highlight the changes to the compiler API that K2 provides, its capabilities, and its differences compared to the K1 compiler API.\r\nWe will discuss the following topics:\r\n- Abilities and restrictions of the K1 and K2 plugin APIs\r\n- Possible directions for plugin API expansion\r\n- IDE and Gradle integration for compiler plugins\r\n- API stabilization",
-      "startsAt": "2023-04-14T10:15:00",
-      "endsAt": "2023-04-14T11:00:00",
-      "speakers": [
+      "start": "2023-04-14T10:15:00",
+      "end": "2023-04-14T11:00:00",
+      "speakerIds": [
         "b06e6d7f-010c-4325-841b-ff9b883e6047"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "388447",
       "title": "How to Publish Your First Kotlin Multiplatform Library",
       "description": "Publishing a Kotlin multiplatform library can be very challenging. This presentation will walk through the whole process from drafting a concept to the publication of your first multiplatform library.\r\n\r\nWe will be using KStore - a minimal multiplatform library to store objects to disk - as a case study for this presentation. We will explore how it was originally inspired, the original goals and how its API evolved over time to support multiple platforms. \r\n\r\nA key goal of this side-project was to make it self-managed as much as possible with minimal overhead so that the open-source community can extend or maintain the library even in my absence. To achieve this I've incorporated a number of tools to upkeep standards from code contributions - tools such as Klover code coverage and binary-compatibility-validator. I've also used a number of automation tools to streamline the process of publishing a multiplatform library - tools such as GitHub actions build matrices to build and test on multiple platforms.",
-      "startsAt": "2023-04-14T10:15:00",
-      "endsAt": "2023-04-14T10:30:00",
-      "speakers": [
+      "start": "2023-04-14T10:15:00",
+      "end": "2023-04-14T10:30:00",
+      "speakerIds": [
         "406d30d0-9757-47d9-94d7-667e11ac803b"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "372287",
       "title": "Partial linkage of Kotlin libraries",
       "description": "I work under Kotlin/Native compiler in JetBrains. And I would like to give a 15-minutes talk with the overview of the so-called \"partial linkage\" mode that we are working on now and are planning to release quite soon. \"Partial linkage\" is a magic that happens in the compiler's middle-end when it tries to assemble a correct application with some parts of IR being missed in the given KLIBs.\r\n\r\nThe topic relates to JS and Native IR backends. And might be interesting to library authors who want to know how to evolve their libraries preserving binary compatibility with other libraries.",
-      "startsAt": "2023-04-14T10:40:00",
-      "endsAt": "2023-04-14T10:55:00",
-      "speakers": [
+      "start": "2023-04-14T10:40:00",
+      "end": "2023-04-14T10:55:00",
+      "speakerIds": [
         "3abf3d12-0e94-4fb8-8505-f9d34bb13a85"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "386394",
       "title": "Handling billions of events per day with Kotlin Coroutines",
       "description": "Migrating a 12-year old application to an asynchronous non-blocking model is not an easy task. What seemed to be impossible at first, was made possible by Kotlin and its Coroutines. It allowed us to reuse most of the existing code base and have a working prototype in a matter of days. Inter-op with Java really pays off!\r\n\r\nThe application is business-critical and processes billions of events per day in real-time with millisecond latency. It also used to burn a lot of $$ in the process, as a single instance of the application occupied a fairly large EC2 instance, running more than 1K threads and handling over 5K IOPS.\r\n\r\nIn this session we will walk through the process of using Kotlin to turn the app asynchronous and how we've integrated the coroutines stack, alongside (old) existing technologies. We will also show how this change made the application more efficient — yielding a 25% cost reduction, which translates into millions of $$ annually.\r\n\r\nWe will also cover challenges encountered along the way when doing such a change, like:\r\n\r\n- Low resolution telemetry data may hide bottlenecks\r\n- Asynchronous alone does not guarantee low latency\r\n- Unexpected impact on dependant services\r\n\r\n— so that you know what you are up against!",
-      "startsAt": "2023-04-14T11:15:00",
-      "endsAt": "2023-04-14T12:00:00",
-      "speakers": [
+      "start": "2023-04-14T11:15:00",
+      "end": "2023-04-14T12:00:00",
+      "speakerIds": [
         "b81fdc60-bb17-4e3e-a1b0-3de82873af97",
         "6f9d3808-ace6-4cbd-961c-6a668ebb9e11"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "408424",
       "title": "KotlinX Libraries",
       "description": "KotlinX libraries complement the basic functionality provided by Kotlin’s standard library. In this talk, you will learn about the kotlinx.* libraries and supplying tools, which the Kotlin team is working on. We’ll cover functionality like serialization, date/time, and code coverage, as well as other libraries in the experimental state.",
-      "startsAt": "2023-04-14T11:15:00",
-      "endsAt": "2023-04-14T12:00:00",
-      "speakers": [
+      "start": "2023-04-14T11:15:00",
+      "end": "2023-04-14T12:00:00",
+      "speakerIds": [
         "f58eda10-92dc-41a0-ac4a-b1a9f2bd7e97",
         "0f769b19-d5f2-49fb-aa78-a086aa046b7e"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "369216",
       "title": "How we completely rewrote our static code analyzer for Kotlin",
       "description": "You've probably heard about Static Code Analysis tools provided by SonarSource, but have you ever thought about what's under the hood of these analyzers?\r\n\r\n\r\n\r\nSome time ago we decided to bring the support of the Kotlin language to the next level. Of course, our story was full of different challenges. How to implement a good analyzer on top of an already existing one, how to track and balance performance, precision, and memory consumption, how to investigate OutOfMemory errors, detect memory leaks on the user's side, and many other hard topics.\r\n\r\n\r\n\r\nIn this presentation, we will try to get to the bottom of this mystery by looking at what's under the hood of our Kotlin Analyzer.",
-      "startsAt": "2023-04-14T11:15:00",
-      "endsAt": "2023-04-14T12:00:00",
-      "speakers": [
+      "start": "2023-04-14T11:15:00",
+      "end": "2023-04-14T12:00:00",
+      "speakerIds": [
         "eeb25beb-5d37-4fb7-acac-170357a1d89b"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "387260",
       "title": "Kotlin/Multiplatform for iOS developers : state & future.",
       "description": "Kotlin/Multiplatform is very often seen by iOS developers as an additional pain point, rather than a productivity tool.\r\nLet's go beyond the front line and try to understand this point of view. What can we do to ease their journey to using KMP, and facilitate their integration to our Kotlin/Multiplatform project?\r\nWe will explore the entire pipeline of integrating a KMP core into an iOS project: tooling, coding, building, deploying, integrating, and using. We will discuss the current limitations that KMP imposes on each step, and try to understand their consequences on the quality of life of an iOS developper.\r\nFinally, we will show some tools and practices to alleviate these constraints & create a shared narrative with all platform developers, as well as discuss what's in the future of KMP for iOS.",
-      "startsAt": "2023-04-14T11:15:00",
-      "endsAt": "2023-04-14T12:00:00",
-      "speakers": [
+      "start": "2023-04-14T11:15:00",
+      "end": "2023-04-14T12:00:00",
+      "speakerIds": [
         "24586433-c018-4271-bf89-43bae78dfa77"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "390955",
       "title": "Why code autocompletion works faster on weekends",
       "description": "Working on a programming language is fun, especially when you're its product manager! To make the developer experience great and the language popular, you have to deal with a variety of questions without easy answers every day: \r\n- Why does code autocompletion work faster on weekends than on workdays? \r\n- How to help developers make fewer errors in interpreting 1..10? \r\n- Why there are so many developers who use the language only once and never return? \r\n- What exactly is hard for newcomers in the memory management system? \r\n- What features to work on when your users and use cases are so different?\r\n\r\nI'll share a few cases from my routine as a programming language product manager. Besides fun facts and quizzes, I'm going to share some helpful product management instruments and tips.\r\n\r\nMy talk will be especially useful for those who create products for other developers: tools or libraries. It will provide a sneak peek at how programming languages are made for everyone else.",
-      "startsAt": "2023-04-14T11:15:00",
-      "endsAt": "2023-04-14T11:30:00",
-      "speakers": [
+      "start": "2023-04-14T11:15:00",
+      "end": "2023-04-14T11:30:00",
+      "speakerIds": [
         "fd9a742d-2e4a-4c87-86ee-b8e03a0984a0"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "458798",
       "title": "Compose for Desktop",
       "description": "Ask any Android developer about the future of Android and they will probably mention two things: Jetpack Compose and Kotlin Multiplatform. Jetpack Compose is the modern, declarative framework that will power the next generation of Android apps, and Kotlin Multiplatform allows developers to build functionality that can be deployed to many different platforms such as iOS, web, and desktop.\r\n\r\nCompose for Desktop takes those two things and brings them together. It allows developers to take their existing knowledge of Android development and quickly build desktop applications. By sharing code between platforms, developers can easily create new features for users on both Android and desktop.\r\n\r\nThis Code Lab will give the audience experience porting a simple Android app written in Jetpack Compose to run on desktop using Compose for Desktop. The audience will learn about the functionality that Compose for Desktop carries over from Jetpack Compose, as well as the specific considerations that they will need to think about when sharing code between platforms.",
-      "startsAt": "2023-04-14T11:15:00",
-      "endsAt": "2023-04-14T12:00:00",
-      "speakers": [
+      "start": "2023-04-14T11:15:00",
+      "end": "2023-04-14T12:00:00",
+      "speakerIds": [
         "5f919344-b492-4bc7-8f0d-7cfc9f31e545"
       ],
-      "roomId": 33509
+      "roomId": "33509"
     },
     {
       "id": "463665",
       "title": "Adding Datastore with GraphQL API I",
       "description": "In this part you will learn how you can save a description and date.",
-      "startsAt": "2023-04-14T11:15:00",
-      "endsAt": "2023-04-14T12:00:00",
-      "speakers": [
+      "start": "2023-04-14T11:15:00",
+      "end": "2023-04-14T12:00:00",
+      "speakerIds": [
         "4f18f996-aa05-4439-84b6-8917cbb93178",
         "261f99e8-0dd0-4136-8764-6a3102e675c5",
         "f3198ab2-5754-4ec4-a18e-3f32146e5c76"
       ],
-      "roomId": 33510
+      "roomId": "33510"
     },
     {
       "id": "373536",
       "title": "Fighting regressions in Kotlin",
       "description": "Quality is one of the top priorities in Kotlin now, especially stability. In Spring, 2022, we've launched an active work toward the regressions' prevention on the users' side. Ever since, we've put a great effort into that and have certainly got some success. Let's see the internal journey and get to know what's next on our plate. ",
-      "startsAt": "2023-04-14T11:40:00",
-      "endsAt": "2023-04-14T11:55:00",
-      "speakers": [
+      "start": "2023-04-14T11:40:00",
+      "end": "2023-04-14T11:55:00",
+      "speakerIds": [
         "6c7be28a-5b66-4646-8bcd-b534c67ee6e8"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "372289",
       "title": "Evolving your Kotlin API painlessly for clients",
       "description": "If you have ever released an internal module or an open source library, you have probably wondered how to support and update it right from the 1.0 version correctly. Good luck to you - this talk will provide some answers to your questions. We'll talk about different types of compatibility and how (not) to break each one of them. Then we'll look into various code writing approaches and Kotlin instruments that help us maintain it. Lastly, we'll take a look at the API evolution process and its lifecycle: how we can add new functions to our codebase and remove old ones safely - and most importantly, how to communicate these changes to users.",
-      "startsAt": "2023-04-14T13:00:00",
-      "endsAt": "2023-04-14T13:45:00",
-      "speakers": [
+      "start": "2023-04-14T13:00:00",
+      "end": "2023-04-14T13:45:00",
+      "speakerIds": [
         "7c29bd1a-00bd-4349-b3e8-92c47710a011"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "391895",
       "title": "Kotlin Multiplatform Mobile for Teams",
       "description": "Touchlab has spent the past few years integrating KMM into various apps. The most simple observation we've taken away from that experience is that different teams approach KMM in different ways. What works well for small teams may be different than for larger teams. What works well for greenfield apps may be different than for existing app projects.\r\nIn this session, we'll cover these different integration approaches. We'll also discuss tooling options, iOS-side API design tips, developer workflows with shared code, and some thoughts on how to present KMM to a team that may not know it needs it (yet!)",
-      "startsAt": "2023-04-14T13:00:00",
-      "endsAt": "2023-04-14T13:45:00",
-      "speakers": [
+      "start": "2023-04-14T13:00:00",
+      "end": "2023-04-14T13:45:00",
+      "speakerIds": [
         "1bdf0b7f-2a71-4d40-a3e1-cb481f328361"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "403349",
       "title": "How we’re improving performance of IntelliJ Kotlin plugin",
       "description": "In this talk, I’ll share the challenges we’ve faced and overcome in improving the performance of the Kotlin plugin for IntelliJ IDEA. I’ll provide the technical details on how the IDE works under the hood, including such features as “Find usages”, and code highlighting. I’ll talk about why your IDE might freeze sometimes, and I’ll explore the complexities of supporting Kotlin/Java interop. We’ll also discuss our next big initiative, the Kotlin plugin that uses the K2 compiler, and how it should significantly improve the performance of many IDE features.",
-      "startsAt": "2023-04-14T13:00:00",
-      "endsAt": "2023-04-14T13:45:00",
-      "speakers": [
+      "start": "2023-04-14T13:00:00",
+      "end": "2023-04-14T13:45:00",
+      "speakerIds": [
         "ff42e79a-949f-4a90-9cdc-efaa5b46c781"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "385181",
       "title": "Deep Dive into Deep Learning with KotlinDL",
       "description": "I think that many of you know the Keras library, which runs on top of Tensorflow. Tensorflow itself has a stable C API, and therefore there are several high-level deep learning frameworks in other languages ​​inspired by Keras, such as TFJS, Keras.NET, Tensorflow in Go. \r\n\r\nToday I want to introduce you to a Keras-like machine learning framework written in Kotlin.\r\n\r\nCurrently, the KotlinDL framework can boast that this is the only way to construct and train complex neural networks on JVM, such as VGG, ResNet, or MobileNet. There is also support for transfer learning for the popular models trained in Keras (or available in Keras. applications).\r\n\r\nFor image preprocessing, several functions are available that allow you to avoid complex and routine work on the JVM.\r\n\r\nIn the last two releases KotlinDL obtained the support of the ONNX module, became multiplatform and could be run on Android devices for different tasks.\r\n\r\nFinally, I’ll show you how you can build, train, and use a convolutional neural network (CNN) entirely in Kotlin with the help of KotlinDL, and we discuss how to use KotlinDL models in production.\r\n",
-      "startsAt": "2023-04-14T13:00:00",
-      "endsAt": "2023-04-14T13:45:00",
-      "speakers": [
+      "start": "2023-04-14T13:00:00",
+      "end": "2023-04-14T13:45:00",
+      "speakerIds": [
         "8451e1e0-951a-4058-8a22-bb68d2c8f52e"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "389422",
       "title": "Tracing coroutines in the JVM",
       "description": "Why is CopyableThreadContextElement a thing that exists?\r\n\r\nPropagating accurate OpenTelemetry- or Dapper-style traces through coroutines on the JVM presented problems.\r\n\r\nWe'll take a quick look at the discovery of the problem, then look at how to safely propagate traces in hybrid Java Executor/Kotlin Coroutine JVM programs using ThreadLocals.",
-      "startsAt": "2023-04-14T13:00:00",
-      "endsAt": "2023-04-14T13:15:00",
-      "speakers": [
+      "start": "2023-04-14T13:00:00",
+      "end": "2023-04-14T13:15:00",
+      "speakerIds": [
         "198f6599-7d84-4342-9f52-3389b8271895"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "458796",
       "title": "Introduction to Context Receivers",
       "description": "You can only call suspending functions from within the scope of a coroutine, but you can only invoke `@Composable` functions from within specific composition contexts.\r\n\r\nWith the new context receivers functionality in Kotlin, you gain another tool with which you can safely and concisely build new functionality in your app.\r\n\r\nAt the end of this Code Lab, you will have some hands-on experience using context receivers and an understanding of the specific scenarios in which they might be useful.\r\n\r\nThe examples presented here won't drive you to rewrite your entire codebase, but they might help inspire your next generation of Kotlin libraries.",
-      "startsAt": "2023-04-14T13:00:00",
-      "endsAt": "2023-04-14T13:45:00",
-      "speakers": [
+      "start": "2023-04-14T13:00:00",
+      "end": "2023-04-14T13:45:00",
+      "speakerIds": [
         "5f919344-b492-4bc7-8f0d-7cfc9f31e545"
       ],
-      "roomId": 33509
+      "roomId": "33509"
     },
     {
       "id": "389967",
       "title": "Preventing Data Races in Async Coroutines",
       "description": "It’s deceivingly easy to introduce race conditions into coroutines running asynchronously. In this talk we review some techniques that we’ve found effective at Google at detecting and preventing race conditions: static analysis and TSAN. First, a combination of interlocking static analyses allows flagging some potentially racy code at compile time based on heuristics. Second, we can leverage TSAN to detect race conditions when running (multithreaded) tests.",
-      "startsAt": "2023-04-14T13:25:00",
-      "endsAt": "2023-04-14T13:40:00",
-      "speakers": [
+      "start": "2023-04-14T13:25:00",
+      "end": "2023-04-14T13:40:00",
+      "speakerIds": [
         "2945cb69-3e28-4cae-9fd8-c01ce9f10869"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "388863",
       "title": "Level up on Kotlin Multiplatform",
       "description": "Kotlin Multiplatform is a new cross-platform technology from JetBrains that is taking the mobile world by storm. Many Android and iOS developers have given this exciting technology a try. But how do you take your skills from building simple apps to more complex ones?\r\n\r\nThis talk aims to help mobile developers level up their Kotlin Multiplatform skills by introducing libraries such as Ktor, SQLDelight, and Koin. I will also discuss implementing common architectural patterns such as MVVM, MVI, and Clean. By the end of the talk, the audience will have a richer understanding of how to build complex Kotlin Multiplatform apps.",
-      "startsAt": "2023-04-14T14:00:00",
-      "endsAt": "2023-04-14T14:45:00",
-      "speakers": [
+      "start": "2023-04-14T14:00:00",
+      "end": "2023-04-14T14:45:00",
+      "speakerIds": [
         "62216efe-dd8b-4d8b-9800-1d51b57c4001"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "389698",
       "title": "Supercharge your GraphQL with Ktor and GraalVM",
       "description": "GraphQL Kotlin is the best way to run GraphQL in Kotlin. It is a code first solution giving you great developer experience. You simply write functions some data and they will be automatically exposed as a GraphQL schema.\r\n\r\nGraalVM is a high-performance runtime that provides significant improvements in application performance and efficiency which is ideal for microservices.\r\n\r\nJoin the session to see how you can run a highly performant GraphQL server using Ktor and GraalVM!",
-      "startsAt": "2023-04-14T14:00:00",
-      "endsAt": "2023-04-14T14:45:00",
-      "speakers": [
+      "start": "2023-04-14T14:00:00",
+      "end": "2023-04-14T14:45:00",
+      "speakerIds": [
         "29be053b-5936-4b2d-bdb9-855b41e189c6"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "390109",
       "title": "To Detekt 2.0, and beyond!",
       "description": "Do you know Detekt? We are a static analyzer for Kotlin. \r\nOur mission: spot bugs, antipatterns, and potential errors in your Kotlin code.\r\n\r\nDetekt is helping millions of Kotlin developers around the globe to spot bugs before they reach production. What took us here is a vibrant community of users & contributors that are helping us build this ecosystem of tools. \r\n\r\nToday, you can easily extend Detekt with your own rules and integrate it with Gradle, Maven, Bazel, IntelliJ, Github, SonarQube, and much more. \r\n\r\nCurious to hear about some of the future we've been working on? Join us in this session as we walk through the current status of Detekt, and give you updates on what's lined up for 2.0!",
-      "startsAt": "2023-04-14T14:00:00",
-      "endsAt": "2023-04-14T14:45:00",
-      "speakers": [
+      "start": "2023-04-14T14:00:00",
+      "end": "2023-04-14T14:45:00",
+      "speakerIds": [
         "8730d40b-3fb7-450d-ab71-08c9dd81a48a"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "389146",
       "title": "Make more money by modeling and optimizing your business processes with Kotlin",
       "description": "Real-world business processes typically grow a dense and complex network of processes, complimentary processes, sub-processes, and many dependencies between them. To optimize a business for profit, efficiency, or productivity, we need to disentangle its dense web of involved resources such as humans, methods, machines or material. Traditional business process modeling and simulation tools are mostly modeled as low-code environments. However, when a business is growing, these tools fail to scale and to deliver the required testbed for business process optimization and analysis. To overcome these challenges, I would like to introduce kalasim - an open-source MIT-licensed discrete simulation engine written in 100% Kotlin. \r\n\r\nkalasim https://www.kalasim.org is designed around suspendable coroutines for process definitions, and runs on the JVM for performance and scale. It ships with dependency injection, modern persistence, structured logging and automation capabilities. kalasim is now developed for more than 2 years, and has been battle-tested for modeling a sightly number of complex industrial business processes. kalasim is designed for simulation practitioners, process analysts and industrial engineers, who need to go beyond the limitations of existing simulation tools to model and optimize their business-critical use-cases. In contrast to many other simulation tools, kalasim is neither low-code nor no-code. It is code-first to enable change tracking, scaling, refactoring, CI/CD, unit-tests, and the rest of the gang that makes simulation development fun. \r\n\r\nThe presentation would be structured as follows:\r\n\r\nFirst, I will introduce the key concepts of discrete event simulation with Kotlin and kalasim using some examples from https://www.kalasim.org/examples. We will discuss and learn how simulation entities are built on top of suspendable coroutines, and how to setup, configure, and run a simulation model.\r\n\r\nNext, we will study a more complex – but very visual - process simulation of a semiconductor wafer production process. I will demonstrate how to use kalasim in a jupyter notebook context, and how it seamlessly integrates with data-science libraries such as lets-plot and kotlin-dataframe. We will discuss how to optimize the modeled production process by modulating machine availability, staffing, and production planning.\r\n\r\nFinally, I will give an overview of how new users could start to model their own processes. I will share some experiences of how new users were onboarded into kalasim without having prior knowledge about Kotlin. Also, I will provide some pointers into more advanced features and integration capabilities of kalasim. \r\n",
-      "startsAt": "2023-04-14T14:00:00",
-      "endsAt": "2023-04-14T14:45:00",
-      "speakers": [
+      "start": "2023-04-14T14:00:00",
+      "end": "2023-04-14T14:45:00",
+      "speakerIds": [
         "384596a7-b0ab-4484-8f1b-98d0dcae22b0"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "389142",
       "title": "Avoiding common coroutines mistakes in Compose",
       "description": "Compose and coroutines work great together, but there are certain patterns you need to avoid when combining them. In this session, we’ll look at some common pitfalls, detail why and how they cause problems, and see what patterns or APIs should be used instead.",
-      "startsAt": "2023-04-14T14:00:00",
-      "endsAt": "2023-04-14T14:15:00",
-      "speakers": [
+      "start": "2023-04-14T14:00:00",
+      "end": "2023-04-14T14:15:00",
+      "speakerIds": [
         "1916ae1c-96d7-480f-9eed-bf5dce444441"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "463666",
       "title": "Adding Datastore with GraphQL API II",
       "description": "In this part you will add following and follower functionality for your application by having data relationship.",
-      "startsAt": "2023-04-14T14:00:00",
-      "endsAt": "2023-04-14T14:45:00",
-      "speakers": [
+      "start": "2023-04-14T14:00:00",
+      "end": "2023-04-14T14:45:00",
+      "speakerIds": [
         "4f18f996-aa05-4439-84b6-8917cbb93178",
         "f3198ab2-5754-4ec4-a18e-3f32146e5c76",
         "261f99e8-0dd0-4136-8764-6a3102e675c5"
       ],
-      "roomId": 33510
+      "roomId": "33510"
     },
     {
       "id": "385463",
-      "title": "World of Warcraft bot with process hacking using Kotlin/Native",
-      "description": "Journey of writing a World of Warcraft leveling/grinding bot using Kotlin/Native. How easy is it to perform DLL injections, read and write process memory, and work with native libraries? We'll compare it with C# and Java, as well as try to reverse engineer World of Warcraft to understand how we can abuse it.",
-      "startsAt": "2023-04-14T14:25:00",
-      "endsAt": "2023-04-14T14:40:00",
-      "speakers": [
+      "title": "Video Game Hacking using Kotlin/Native",
+      "description": "Have you ever wondered how video game hacks, trainers, and bots work under the hood? Would you like to implement one in pure Kotlin?\r\nIf your answer to either question is yes, then this talk is for you! We’ll cover the theory behind basic video game hacking and see how easy it is to take the first steps with Kotlin/Native – all with approachable instructions and examples to get you started.",
+      "start": "2023-04-14T14:25:00",
+      "end": "2023-04-14T14:40:00",
+      "speakerIds": [
         "68b14adf-80d2-4a38-b6c9-d8c66b343dca"
       ],
-      "roomId": 31925
+      "roomId": "31925"
     },
     {
       "id": "466843",
       "title": "Playing in the Treehouse with Redwood and Zipline",
       "description": "Redwood is Cash App's multiplatform Compose library which targets the native UI toolkit of each platform while still sharing presentation logic. This means our app's existing Android views and iOS UIViews can be powered by common Compose and still offer a path to Compose UI and Swift UI.\r\n\r\nZipline is a multiplatform Javascript engine for Android, iOS, and the JVM which uses Kotlin interfaces for calls in and out of JS. This allows us to update the logic of our apps faster than going through the app store release process.\r\n\r\nTreehouse is what we call the combination of Redwood and Zipline. By moving the Compose presentation logic into Zipline we can update the screens of our apps across Android, iOS, and web without waiting for the app store.\r\n\r\nThis talk will cover how Redwood and Zipline can work in isolation but how the combination as Treehouse is their most powerful form.",
-      "startsAt": "2023-04-14T15:15:00",
-      "endsAt": "2023-04-14T16:00:00",
-      "speakers": [
+      "start": "2023-04-14T15:15:00",
+      "end": "2023-04-14T16:00:00",
+      "speakerIds": [
         "3eabdd46-6cb5-4083-9eb8-1ad9a3b7a5eb"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "389497",
       "title": "One language to build them all!",
       "description": "Are you using Kotlin to write mobile apps, desktop apps, web apps, (micro-)services, daemons, tools, libraries, or tests?\r\n\r\nIn this presentation, learn about how you can leverage your Kotlin-Fu using Gradle to automate your software development and delivery process. We’ll see how Kotlin fits the Gradle programming model, how to use Kotlin to extend the Gradle DSL, how to write convention plugins in Kotlin, how to interact with the Kotlin Gradle plugin and configure it, how to make Kotlin work well with Gradle’s configuration cache and how to share code between your production app and your build logic.\r\n\r\nUsing the Kotlin language for production, test and build makes it easier for everyone to work with your software code base. Let’s go 100% Kotlin!",
-      "startsAt": "2023-04-14T15:15:00",
-      "endsAt": "2023-04-14T16:00:00",
-      "speakers": [
+      "start": "2023-04-14T15:15:00",
+      "end": "2023-04-14T16:00:00",
+      "speakerIds": [
         "ebc612d5-a764-46b6-8524-0adb9638dd5c",
         "6de24099-9553-48f5-8880-26604621d6af"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "371671",
       "title": "Koin 3.2 - Improving the Kotlin Developer Experience",
       "description": "​​Koin is the Kotlin dependency injection framework well known for its ease of use and efficiency. It has been greatly appreciated by the Android community since 2017.\r\n\r\nIn 2022, a new major version of the framework is released: Koin 3.2. Let’s explore the great new DSL that still continues to simplify our writings, also the new module hierarchy organization capacity, and much more. \r\n\r\nThe Koin Annotations project is also getting to its first stable version: 1.0. It’s a great time to see all you can do with these annotations, powered by Google KSP under the hood. \r\n",
-      "startsAt": "2023-04-14T15:15:00",
-      "endsAt": "2023-04-14T16:00:00",
-      "speakers": [
+      "start": "2023-04-14T15:15:00",
+      "end": "2023-04-14T16:00:00",
+      "speakerIds": [
         "66fbb80a-cd18-4ba1-931d-d070d060ab95"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "388924",
       "title": "Kotlin Native for CLIs",
       "description": "When making Command Line Interfaces (CLIs) it sure would be nice to use everyone's favorite language, but we also have to think about things like distribution and portability. While we can zip up our jars and assets, ask the user to extract them somewhere, and write a shell script to configure the JVM, classpath, and launch our Jar, there are also other options that allow us to write in Kotlin, while also building tools that look and feel just like any other on a user's system.\r\n\r\nWhen I first wrote Differ, a Kotlin Multiplatform library for image comparison, the sample app was a Kotlin JVM app like any other, which exercised the library by letting you provide two images for comparison and printing the results to STDOUT. It soon became apparent that the sample app would also make a useful CLI, but JVM based CLIs involve quite a bit of overhead to distribute and run. Since Differ is a multiplatform library, Kotlin Native was a straightforward solution to make a CLI written in Kotlin which looks and feels just like any other native tool on a developer machine.\r\n\r\nIn this talk we'll discuss situations in which Kotlin Native can be a great tool for building CLIs, some of the downsides of using Kotlin Native over other tools, and some of the tools and libraries that can help. Using real world examples, we'll explore how you can build, package and run CLIs just like other tools installed on your system. After this talk, you'll be prepared to use Kotlin Native to create your own useful, portable, and testable CLIs that work just like any other utility. ",
-      "startsAt": "2023-04-14T15:15:00",
-      "endsAt": "2023-04-14T16:00:00",
-      "speakers": [
+      "start": "2023-04-14T15:15:00",
+      "end": "2023-04-14T16:00:00",
+      "speakerIds": [
         "f1275dc9-492b-4ab1-b31b-3e19bccde628"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "458792",
       "title": "Coding for Testability",
       "description": "This Code Lab is for anyone working on a project that has low test coverage, difficulty testing parts of the application, or tests that must constantly change as a result of code changes. During the lab, we’ll explore the abstract concepts, patterns, and techniques necessary to write effective, low-maintenance tests.\r\nUnit Isolation – Using dependency injection, dependency inversion, and mocks / fakes, we’ll practice isolating our units under test.\r\nTesting Internal Functionality – We’ll talk about the concept of coverage and we’ll learn how to test all of those pesky private functions without using reflection or @VisibleForTesting!\r\nCreating Seams – We don’t always get to create our code from scratch. In this section, we’ll work on taking an existing code base and introducing a seam that allows us to isolate the code that we want to test.",
-      "startsAt": "2023-04-14T15:15:00",
-      "endsAt": "2023-04-14T16:00:00",
-      "speakers": [
+      "start": "2023-04-14T15:15:00",
+      "end": "2023-04-14T16:00:00",
+      "speakerIds": [
         "397779a7-72af-4907-9675-bcdd977dc0ab"
       ],
-      "roomId": 33509
+      "roomId": "33509"
     },
     {
       "id": "463667",
       "title": "Adding Geo",
       "description": "In this part you will learn how to add a map and location for the image you are uploading.",
-      "startsAt": "2023-04-14T15:15:00",
-      "endsAt": "2023-04-14T16:00:00",
-      "speakers": [
+      "start": "2023-04-14T15:15:00",
+      "end": "2023-04-14T16:00:00",
+      "speakerIds": [
         "4f18f996-aa05-4439-84b6-8917cbb93178",
         "f3198ab2-5754-4ec4-a18e-3f32146e5c76",
         "261f99e8-0dd0-4136-8764-6a3102e675c5"
       ],
-      "roomId": 33510
+      "roomId": "33510"
     },
     {
       "id": "386105",
       "title": "Gilded Rose Refactoring Kata",
       "description": "Gilded Rose code kata is an exercise designed to practice your refactoring skills. It simulates a legacy project in which you need to improve the code so you can add a new feature. In this live coding session, I will use the Kotlin version of the kata to show how a sequence of incremental improvements can make a difference, taking program design to a better and more functional place. You will see a few refactoring heuristics, IntelliJ tips and tricks, and design emerging from seemingly chaotic code.\r\n",
-      "startsAt": "2023-04-14T16:15:00",
-      "endsAt": "2023-04-14T17:00:00",
-      "speakers": [
+      "start": "2023-04-14T16:15:00",
+      "end": "2023-04-14T17:00:00",
+      "speakerIds": [
         "9aa1160b-ce4f-4992-a1ad-b6da7d62c033"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     },
     {
       "id": "389827",
       "title": "Modern Compose Architecture with Circuit",
       "description": "Compose is revolutionizing UI development, but why stop there? At Slack we’ve been developing a new Compose-first open source architecture called Circuit. In this talk, we’ll detail how Circuit works and how we’re powering UI *and* business logic with Compose to make writing applications (and their tests!) simple and easy.\r\n\r\nOh, and multiplatform.",
-      "startsAt": "2023-04-14T16:15:00",
-      "endsAt": "2023-04-14T17:00:00",
-      "speakers": [
+      "start": "2023-04-14T16:15:00",
+      "end": "2023-04-14T17:00:00",
+      "speakerIds": [
         "8ce6cf3a-735e-4a2a-b05f-e2081e5b6741",
         "00a0e3a5-18a0-4044-a41c-e40e5f31f847"
       ],
-      "roomId": 27490
+      "roomId": "27490"
     },
     {
       "id": "368850",
       "title": "Direct2DB: Radically simplified app architecture with Kotlin",
       "description": "In this talk I'll argue that the combination of Kotlin, Jetpack Compose Multiplatform and a new product (Hydraulic Conveyor) makes it realistic to radically simplify the design of typical database apps. In the Direct2DB model there are no web servers, load balancers or REST APIs. Instead you ship JVM desktop and mobile apps that connect directly to the relational database using JDBC. The database provides the RPC protocol, result streaming, user authentication and more. Kotlin and Jetpack Compose are used for all the client side logic, and finally, Conveyor makes packaging and updating the results as easy as with a web app. I'll show an app written this way, discuss the advantages and disadvantages and outline the next steps for this design.",
-      "startsAt": "2023-04-14T16:15:00",
-      "endsAt": "2023-04-14T17:00:00",
-      "speakers": [
+      "start": "2023-04-14T16:15:00",
+      "end": "2023-04-14T17:00:00",
+      "speakerIds": [
         "d1ab61ef-af55-4eb8-855c-9cb067fbd732"
       ],
-      "roomId": 27491
+      "roomId": "27491"
     },
     {
       "id": "389764",
       "title": "Implementing a MIDI player in Kotlin",
       "description": "In this talk I’ll show a step-by-step implementation of MIDI player in Kotlin using coroutines and JVM standard library. We’ll find out how to read MIDI files, what’s the structure of MIDI events, how to represent the melody and finally how to play it using Kotlin coroutines. This will lead us to further topics including playing external synths, changing the playback tempo, possibilities of using Open Sound Control protocol, playing beats and mixing predefined loops. I’ll end with a short performance using my live-coding music library called Punkt.\r\n",
-      "startsAt": "2023-04-14T16:15:00",
-      "endsAt": "2023-04-14T17:00:00",
-      "speakers": [
+      "start": "2023-04-14T16:15:00",
+      "end": "2023-04-14T17:00:00",
+      "speakerIds": [
         "bbf7aedd-debc-4478-aa43-3490fd86a19b"
       ],
-      "roomId": 31924
+      "roomId": "31924"
     },
     {
       "id": "393997",
       "title": "Closing Panel",
       "description": "Like every KotlinConf, we'll end the event with a Closing Panel made up of different folks in the Kotlin community that are there to answer all the questions you've always wanted to ask. Make sure you don't make it easy for them!",
-      "startsAt": "2023-04-14T17:15:00",
-      "endsAt": "2023-04-14T18:15:00",
-      "speakers": [
+      "start": "2023-04-14T17:15:00",
+      "end": "2023-04-14T18:15:00",
+      "speakerIds": [
         "2d146e58-439f-40ec-9d5b-1dbefdeb707a"
       ],
-      "roomId": 27489
+      "roomId": "27489"
     }
   ],
   "speakers": [
@@ -1380,47 +1380,47 @@
   ],
   "rooms": [
     {
-      "id": 27489,
+      "id": "27489",
       "name": "Effectenbeurszaal"
     },
     {
-      "id": 27490,
+      "id": "27490",
       "name": "Graanbeurszaal"
     },
     {
-      "id": 27491,
+      "id": "27491",
       "name": "Administratiezaal"
     },
     {
-      "id": 31924,
+      "id": "31924",
       "name": "Berlage zaal"
     },
     {
-      "id": 31925,
+      "id": "31925",
       "name": "Veilingzaal"
     },
     {
-      "id": 33509,
+      "id": "33509",
       "name": "Verwey kamer"
     },
     {
-      "id": 33510,
+      "id": "33510",
       "name": "Mendes da Costa kamer"
     },
     {
-      "id": 33977,
+      "id": "33977",
       "name": "Blauwe kamer"
     },
     {
-      "id": 33978,
+      "id": "33978",
       "name": "Derkinderen kamer"
     },
     {
-      "id": 33979,
+      "id": "33979",
       "name": "Roland Host kamer"
     },
     {
-      "id": 33980,
+      "id": "33980",
       "name": "Ontvangkamer"
     }
   ]
