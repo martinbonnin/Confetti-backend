@@ -1,5 +1,6 @@
 package confetti.backend
 
+import kotlinx.datetime.LocalDateTime
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
@@ -25,8 +26,8 @@ class Session(
     val id: String,
     val title: String,
     val description: String?,
-    val start: String,
-    val end: String,
+    private val start: String,
+    private val end: String,
     val speakerIds: List<String>,
     val roomId: String
 ) {
@@ -35,6 +36,9 @@ class Session(
     }
 
     fun room() = jsonData.rooms.find { it.id == roomId }!!
+
+    fun start() = LocalDateTime.parse(start)
+    fun end() = LocalDateTime.parse(end)
 }
 
 @Serializable
