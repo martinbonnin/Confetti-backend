@@ -21,7 +21,7 @@ class ConfettiApplication
 // The GraphQL entry point
 class RootQuery : Query {
     fun sessions(): List<Session> {
-        return jsonData.sessions.map { it.toSession() }
+        return jsonData.sessions
     }
 }
 

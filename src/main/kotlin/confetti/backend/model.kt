@@ -6,39 +6,39 @@ import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.decodeFromStream
 
 @Serializable
-class JsonSpeaker(
+class Speaker(
     val id: String,
     val firstName: String,
     val lastName: String,
 )
 
 @Serializable
-class JsonRoom(
-    val id: Int,
+class Room(
+    val id: String,
     val name: String,
 )
 
 @Serializable
-class JsonSession(
+class Session(
     val id: String,
     val title: String,
     val description: String?,
-    val startsAt: String,
-    val endsAt: String,
-    val speakers: List<String>,
-    val roomId: Int
+    val start: String,
+    val end: String,
+    val speakerIds: List<String>,
+    val roomId: String
 )
 
 @Serializable
-class JsonData(
-    val sessions: List<JsonSession>,
-    val speakers: List<JsonSpeaker>,
-    val rooms: List<JsonRoom>,
+class Data(
+    val sessions: List<Session>,
+    val speakers: List<Speaker>,
+    val rooms: List<Room>,
 )
 
 @OptIn(ExperimentalSerializationApi::class)
-val jsonData: JsonData by lazy {
-    JsonData::class.java.classLoader.getResourceAsStream("all-data.json")!!.use {
+val jsonData: Data by lazy {
+    Data::class.java.classLoader.getResourceAsStream("all-data.json")!!.use {
         Json.decodeFromStream(it)
     }
 }

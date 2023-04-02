@@ -20,6 +20,8 @@ repositories {
 dependencies {
 	implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
 	implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0")
+	testImplementation("org.jetbrains.kotlin:kotlin-test")
+	testImplementation("com.squareup.okhttp3:okhttp:4.10.0")
 
 	// Everything needed to start a Spring Boot application
 	implementation("org.springframework.boot:spring-boot-starter")
