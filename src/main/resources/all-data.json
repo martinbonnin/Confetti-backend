@@ -944,438 +944,438 @@
   "speakers": [
     {
       "id": "6194c065-3bcc-42b5-b1d1-9a25af6b86be",
-      "firstName": "Alejandro",
-      "lastName": "Serrano Mena"
+      "name": "Alejandro Serrano Mena",
+      "tagline": "Functional Trainer and Software Engineer at 47 Degrees"
     },
     {
       "id": "64861870-2216-42e0-baba-1441eb2fb61c",
-      "firstName": "Alex",
-      "lastName": "Semin"
+      "name": "Alex Semin",
+      "tagline": "Software Engineer at Gradle"
     },
     {
       "id": "f657cb50-4f4d-4a48-8de8-f13c55c82db6",
-      "firstName": "Alexey",
-      "lastName": "Soshin"
+      "name": "Alexey Soshin",
+      "tagline": "Solutions Architect at Depop"
     },
     {
       "id": "8451e1e0-951a-4058-8a22-bb68d2c8f52e",
-      "firstName": "Alexey",
-      "lastName": "Zinoviev"
+      "name": "Alexey Zinoviev",
+      "tagline": "ML engineer at JetBrains"
     },
     {
       "id": "a4d26fc1-9707-4c86-bc82-70b7ce05823c",
-      "firstName": "Amanda",
-      "lastName": "Hinchman-Dominguez"
+      "name": "Amanda Hinchman-Dominguez",
+      "tagline": "Android Engineer, Kotlin GDE"
     },
     {
       "id": "0a06841a-f5f1-4f66-84fa-ae53ab2b0cb8",
-      "firstName": "Andrew",
-      "lastName": "Goldberg"
+      "name": "Andrew Goldberg",
+      "tagline": "Las Vegas-based casino analytics, database and technology consultant"
     },
     {
       "id": "4f18f996-aa05-4439-84b6-8917cbb93178",
-      "firstName": "Anshul",
-      "lastName": "Gupta"
+      "name": "Anshul Gupta",
+      "tagline": "Software Engineer, Android, Amazon"
     },
     {
       "id": "f58eda10-92dc-41a0-ac4a-b1a9f2bd7e97",
-      "firstName": "Anton",
-      "lastName": "Arhipov"
+      "name": "Anton Arhipov",
+      "tagline": "Developer Advocate at JetBrains"
     },
     {
       "id": "66fbb80a-cd18-4ba1-931d-d070d060ab95",
-      "firstName": "Arnaud",
-      "lastName": "Giuliani"
+      "name": "Arnaud Giuliani",
+      "tagline": "Koin Project Lead"
     },
     {
       "id": "397779a7-72af-4907-9675-bcdd977dc0ab",
-      "firstName": "Ben",
-      "lastName": "Zweber"
+      "name": "Ben Zweber",
+      "tagline": "Solutions Architect at Big Nerd Ranch"
     },
     {
       "id": "4de84656-0368-405d-8688-9142fd388971",
-      "firstName": "Bjorn",
-      "lastName": "van der Laan"
+      "name": "Bjorn van der Laan",
+      "tagline": "Software engineer and trainer at Xebia"
     },
     {
       "id": "e975c49f-668a-460a-8ce2-007a36bff35d",
-      "firstName": "Brian",
-      "lastName": "Norman"
+      "name": "Brian Norman",
+      "tagline": "Backend developer at Datasite"
     },
     {
       "id": "5f919344-b492-4bc7-8f0d-7cfc9f31e545",
-      "firstName": "Bryan",
-      "lastName": "Sills"
+      "name": "Bryan Sills",
+      "tagline": "Android Developer and Instructor at Big Nerd Ranch"
     },
     {
       "id": "5985cca0-e053-46cf-9002-48bded9a43e3",
-      "firstName": "Cas",
-      "lastName": "van Luijtelaar"
+      "name": "Cas van Luijtelaar",
+      "tagline": "Cross Platform Developer at Umain"
     },
     {
       "id": "814138cf-aa0c-48e2-8f38-52b31c29a45b",
-      "firstName": "Christina",
-      "lastName": "Lee"
+      "name": "Christina Lee",
+      "tagline": "Android Engineer at Pinterest"
     },
     {
       "id": "b585543d-3bcc-4485-808e-e57f9e2a192b",
-      "firstName": "Colin",
-      "lastName": "Lee"
+      "name": "Colin Lee",
+      "tagline": "Senior Android Engineer at Meetup"
     },
     {
       "id": "b3f34b70-b68f-4325-8ffe-b599217e1f4c",
-      "firstName": "David",
-      "lastName": "Denton"
+      "name": "David Denton",
+      "tagline": "Polyglot // Open Source // Trainer // Speaker // Kotlin GDE // Co-creator of http4k"
     },
     {
       "id": "29be053b-5936-4b2d-bdb9-855b41e189c6",
-      "firstName": "Derek",
-      "lastName": "Kuc"
+      "name": "Derek Kuc",
+      "tagline": "Principal Software Engineer at Apollo"
     },
     {
       "id": "3abf3d12-0e94-4fb8-8505-f9d34bb13a85",
-      "firstName": "Dmitriy",
-      "lastName": "Dolovov"
+      "name": "Dmitriy Dolovov",
+      "tagline": "Engineer for the Kotlin/Native team at JetBrains"
     },
     {
       "id": "9aa1160b-ce4f-4992-a1ad-b6da7d62c033",
-      "firstName": "Dmitry",
-      "lastName": "Kandalov"
+      "name": "Dmitry Kandalov",
+      "tagline": "Software Developer"
     },
     {
       "id": "c471c1b0-53d7-45cf-a12c-340714972d83",
-      "firstName": "Duncan",
-      "lastName": "McGregor"
+      "name": "Duncan McGregor",
+      "tagline": "Just zis guy, you know"
     },
     {
       "id": "6b8c2666-a975-4a5f-9ee0-5f28f3e445ee",
-      "firstName": "Dustin",
-      "lastName": "Lam"
+      "name": "Dustin Lam",
+      "tagline": "Software Engineer at Google"
     },
     {
       "id": "fd9a742d-2e4a-4c87-86ee-b8e03a0984a0",
-      "firstName": "Egor",
-      "lastName": "Tolstoy"
+      "name": "Egor Tolstoy",
+      "tagline": "Product Manager for Kotlin at JetBrains"
     },
     {
       "id": "878ec0bb-f4d7-4b83-a9af-ff6e359a35dc",
-      "firstName": "Etienne",
-      "lastName": "Caron"
+      "name": "Etienne Caron",
+      "tagline": "Freelance Software Developer"
     },
     {
       "id": "b81fdc60-bb17-4e3e-a1b0-3de82873af97",
-      "firstName": "Florentin",
-      "lastName": "Simion"
+      "name": "Florentin Simion",
+      "tagline": "Senior Software Engineer at Adobe"
     },
     {
       "id": "a001139d-1700-4514-8a78-7cb15a5391ca",
-      "firstName": "Garth ",
-      "lastName": "Gilmour"
+      "name": "Garth  Gilmour",
+      "tagline": "Developer Advocate for Kotlin at JetBrains"
     },
     {
       "id": "ebe735ce-e742-469b-8b23-2274fb20de7e",
-      "firstName": "Grace",
-      "lastName": "Kloba"
+      "name": "Grace Kloba",
+      "tagline": "VP Engineering for Android Developer Experience at Google"
     },
     {
       "id": "2d146e58-439f-40ec-9d5b-1dbefdeb707a",
-      "firstName": "Hadi",
-      "lastName": "Hariri"
+      "name": "Hadi Hariri",
+      "tagline": "Never believed in elevator pitches"
     },
     {
       "id": "9ad25dcf-9587-423b-bd2e-415e6757286c",
-      "firstName": "Harun",
-      "lastName": "Wangereka"
+      "name": "Harun Wangereka",
+      "tagline": "GDE Android, Android Engineer at Apollo Agriculture"
     },
     {
       "id": "384596a7-b0ab-4484-8f1b-98d0dcae22b0",
-      "firstName": "Holger",
-      "lastName": "Brandl"
+      "name": "Holger Brandl",
+      "tagline": "Let data flow not stumble!"
     },
     {
       "id": "2d41d3fb-3321-4b47-a401-ae84a5de2423",
-      "firstName": "Huyen Tue",
-      "lastName": "Dao"
+      "name": "Huyen Tue Dao",
+      "tagline": "Lead Android Developer at Adobe"
     },
     {
       "id": "9f2b5627-1d42-423f-a6e9-f5e5e356edee",
-      "firstName": "Ian",
-      "lastName": "Botsford"
+      "name": "Ian Botsford",
+      "tagline": "Sr. Software Development Engineer at Amazon"
     },
     {
       "id": "68b14adf-80d2-4a38-b6c9-d8c66b343dca",
-      "firstName": "Ignat",
-      "lastName": "Beresnev"
+      "name": "Ignat Beresnev",
+      "tagline": "Software Engineer at JetBrains"
     },
     {
       "id": "406d30d0-9757-47d9-94d7-667e11ac803b",
-      "firstName": "Isuru",
-      "lastName": "Rajapakse"
+      "name": "Isuru Rajapakse",
+      "tagline": "Kotlin Developer at Motorola Solutions"
     },
     {
       "id": "4f7b8adb-fd36-4ada-80df-9a6997a7fa04",
-      "firstName": "Ivan",
-      "lastName": "Sanchez"
+      "name": "Ivan Sanchez",
+      "tagline": "Independent Consultant"
     },
     {
       "id": "94684c34-df76-48c1-89cb-3ab689c83915",
-      "firstName": "Jackson",
-      "lastName": "Mafra"
+      "name": "Jackson Mafra",
+      "tagline": "Android Developer at Umain"
     },
     {
       "id": "3eabdd46-6cb5-4083-9eb8-1ad9a3b7a5eb",
-      "firstName": "Jake",
-      "lastName": "Wharton"
+      "name": "Jake Wharton",
+      "tagline": "Android at Cash App"
     },
     {
       "id": "92519528-c12b-4cad-a863-6f9b220f9609",
-      "firstName": "James",
-      "lastName": "Lamine"
+      "name": "James Lamine",
+      "tagline": "Software Engineeer at DoorDash"
     },
     {
       "id": "5c84d73d-1b13-4383-a7ec-e7ce3151794e",
-      "firstName": "James",
-      "lastName": "Ward"
+      "name": "James Ward",
+      "tagline": "Kotlin Product Manager at Google"
     },
     {
       "id": "4f541219-75cb-4e12-a1e9-4d9382652d0d",
-      "firstName": "Jason",
-      "lastName": "Parachoniak"
+      "name": "Jason Parachoniak",
+      "tagline": "Software Engineer at Google"
     },
     {
       "id": "9ff98d8b-f176-49b9-a871-339cf8fad50b",
-      "firstName": "Jeffrey",
-      "lastName": "van Gogh"
+      "name": "Jeffrey van Gogh",
+      "tagline": "Language Geek at Google"
     },
     {
       "id": "0392772c-28d4-47f6-bd39-47d743fb4a81",
-      "firstName": "John",
-      "lastName": "O'Reilly"
+      "name": "John O'Reilly",
+      "tagline": "Android Software Engineer at Neat"
     },
     {
       "id": "b94daf79-b12a-4257-8556-38d500bb414b",
-      "firstName": "John",
-      "lastName": "Pampuch"
+      "name": "John Pampuch",
+      "tagline": "Production Programming Languages at Google"
     },
     {
       "id": "f2617bc2-d35e-4fd7-9cea-02060f3e1608",
-      "firstName": "Josh",
-      "lastName": "Long"
+      "name": "Josh Long",
+      "tagline": "Spring Developer Advocate at VMware"
     },
     {
       "id": "2945cb69-3e28-4cae-9fd8-c01ce9f10869",
-      "firstName": "Kevin",
-      "lastName": "Bierhoff"
+      "name": "Kevin Bierhoff",
+      "tagline": "Bringing Kotlin to Google"
     },
     {
       "id": "1bdf0b7f-2a71-4d40-a3e1-cb481f328361",
-      "firstName": "Kevin",
-      "lastName": "Galligan"
+      "name": "Kevin Galligan",
+      "tagline": "Partner at Touchlab"
     },
     {
       "id": "bc20c5a9-2d7e-4830-827f-8919be0eba88",
-      "firstName": "Kevlin",
-      "lastName": "Henney"
+      "name": "Kevlin Henney",
+      "tagline": "Programming · Patterns · Practice · Process"
     },
     {
       "id": "00a0e3a5-18a0-4044-a41c-e40e5f31f847",
-      "firstName": "Kieran",
-      "lastName": "Elliott"
+      "name": "Kieran Elliott",
+      "tagline": "Software Engineer at Slack"
     },
     {
       "id": "bb812f58-15d9-4d3f-ba71-d7c70598d747",
-      "firstName": "Kwun Hang",
-      "lastName": "Lai"
+      "name": "Kwun Hang Lai",
+      "tagline": "Phd candidate"
     },
     {
       "id": "6a7c1f8a-784d-46be-8840-9cf519c4bc78",
-      "firstName": "Lena",
-      "lastName": "Stepanova"
+      "name": "Lena Stepanova",
+      "tagline": "Mobile Developer"
     },
     {
       "id": "7c29bd1a-00bd-4349-b3e8-92c47710a011",
-      "firstName": "Leonid",
-      "lastName": "Startsev"
+      "name": "Leonid Startsev",
+      "tagline": "Software developer for Kotlin libraries at JetBrains."
     },
     {
       "id": "6c7be28a-5b66-4646-8bcd-b534c67ee6e8",
-      "firstName": "Liliia",
-      "lastName": "Abdulina"
+      "name": "Liliia Abdulina",
+      "tagline": "Kotlin QA Lead at JetBrains"
     },
     {
       "id": "eeb25beb-5d37-4fb7-acac-170357a1d89b",
-      "firstName": "Marharyta",
-      "lastName": "Nedzelska"
+      "name": "Marharyta Nedzelska",
+      "tagline": "Software Engineer at Sonar"
     },
     {
       "id": "56fda597-4927-4d25-9a80-4795d15ef080",
-      "firstName": "Martin",
-      "lastName": "Bonnin"
+      "name": "Martin Bonnin",
+      "tagline": "Mobile Engineer at ApolloGraphQL"
     },
     {
       "id": "1916ae1c-96d7-480f-9eed-bf5dce444441",
-      "firstName": "Márton",
-      "lastName": "Braun"
+      "name": "Márton Braun",
+      "tagline": "Android Developer Relations Engineer at Google"
     },
     {
       "id": "d1ab61ef-af55-4eb8-855c-9cb067fbd732",
-      "firstName": "Mike",
-      "lastName": "Hearn"
+      "name": "Mike Hearn",
+      "tagline": "Founder of Hydraulic"
     },
     {
       "id": "b06e6d7f-010c-4325-841b-ff9b883e6047",
-      "firstName": "Mikhail",
-      "lastName": "Glukhikh"
+      "name": "Mikhail Glukhikh",
+      "tagline": "Team Lead for Kotlin Compiler Core at JetBrains"
     },
     {
       "id": "f3198ab2-5754-4ec4-a18e-3f32146e5c76",
-      "firstName": "Muhammed Salih",
-      "lastName": "Guler"
+      "name": "Muhammed Salih Guler",
+      "tagline": "Senior Developer Advocate"
     },
     {
       "id": "30cc8bd5-49a1-4609-bf70-ff5e6b12b3c2",
-      "firstName": "Nat",
-      "lastName": "Pryce"
+      "name": "Nat Pryce",
+      "tagline": "Consulting Developer"
     },
     {
       "id": "8730d40b-3fb7-450d-ab71-08c9dd81a48a",
-      "firstName": "Nicola",
-      "lastName": "Corti"
+      "name": "Nicola Corti",
+      "tagline": "Kotlin GDE - Android at React"
     },
     {
       "id": "94ba4fa4-aed7-482e-8096-f61090d5bb4d",
-      "firstName": "Nicole",
-      "lastName": "Terc"
+      "name": "Nicole Terc",
+      "tagline": "Software Engineering Lead at Dance"
     },
     {
       "id": "ffcac92c-d9e9-48e9-8de0-4e4e684c58e2",
-      "firstName": "Nikita",
-      "lastName": "Koval"
+      "name": "Nikita Koval",
+      "tagline": "Researcher at JetBrains"
     },
     {
       "id": "9d505523-0837-4efa-a5e4-94479bb7fbfa",
-      "firstName": "Nikita",
-      "lastName": "Lipsky"
+      "name": "Nikita Lipsky",
+      "tagline": "Software Developer for Kotlin at JetBrains"
     },
     {
       "id": "62216efe-dd8b-4d8b-9800-1d51b57c4001",
-      "firstName": "Pamela",
-      "lastName": "Hill"
+      "name": "Pamela Hill",
+      "tagline": "Developer Advocate at JetBrains"
     },
     {
       "id": "ebc612d5-a764-46b6-8524-0adb9638dd5c",
-      "firstName": "Paul",
-      "lastName": "Merlin"
+      "name": "Paul Merlin",
+      "tagline": "I build software"
     },
     {
       "id": "bbf7aedd-debc-4478-aa43-3490fd86a19b",
-      "firstName": "Piotr",
-      "lastName": "Jagielski"
+      "name": "Piotr Jagielski",
+      "tagline": "Senior JVM Developer at TouK"
     },
     {
       "id": "9caa9624-350a-4e69-8ac4-88db14bdb5bf",
-      "firstName": "Rahul",
-      "lastName": "Ravikumar"
+      "name": "Rahul Ravikumar",
+      "tagline": "Software Engineer at Google"
     },
     {
       "id": "6f9d3808-ace6-4cbd-961c-6a668ebb9e11",
-      "firstName": "Rares",
-      "lastName": "Vlasceanu"
+      "name": "Rares Vlasceanu",
+      "tagline": "Software Architect at Adobe"
     },
     {
       "id": "6de24099-9553-48f5-8880-26604621d6af",
-      "firstName": "Rodrigo",
-      "lastName": "Oliveira"
+      "name": "Rodrigo Oliveira",
+      "tagline": "Principal Software Engineer at Gradle Inc."
     },
     {
       "id": "80f570c3-27df-4756-b04a-76b2d6f220c4",
-      "firstName": "Roman",
-      "lastName": "Elizarov"
+      "name": "Roman Elizarov",
+      "tagline": "Kotlin Project Lead at JetBrains"
     },
     {
       "id": "7a1d47f2-dfd1-4af1-b097-5c415f9b29c3",
-      "firstName": "Russell",
-      "lastName": "Wolf"
+      "name": "Russell Wolf",
+      "tagline": "Kotlin Multiplatform at Touchlab"
     },
     {
       "id": "f1275dc9-492b-4ab1-b31b-3e19bccde628",
-      "firstName": "Ryan",
-      "lastName": "Harter"
+      "name": "Ryan Harter",
+      "tagline": "Android at Dropbox"
     },
     {
       "id": "24586433-c018-4271-bf89-43bae78dfa77",
-      "firstName": "Salomon",
-      "lastName": "Brys"
+      "name": "Salomon Brys",
+      "tagline": "CTO and Founder at Kodein Koders"
     },
     {
       "id": "a82c6942-6e2b-4d80-9883-0b84b932d6ef",
-      "firstName": "Sebastian",
-      "lastName": "Aigner"
+      "name": "Sebastian Aigner",
+      "tagline": "Developer Advocate at JetBrains"
     },
     {
       "id": "ce11156d-9a41-4f12-b236-3bdac0ee3a2a",
-      "firstName": "Sébastien",
-      "lastName": "Deleuze"
+      "name": "Sébastien Deleuze",
+      "tagline": "Spring Framework core committer"
     },
     {
       "id": "1d0019f9-31b2-41c8-baa9-012f89d0df85",
-      "firstName": "Simon",
-      "lastName": "Vergauwen"
+      "name": "Simon Vergauwen",
+      "tagline": "Arrow maintainer and Lead Software Engineer at 47 Degrees"
     },
     {
       "id": "0f769b19-d5f2-49fb-aa78-a086aa046b7e",
-      "firstName": "Svetlana",
-      "lastName": "Isakova"
+      "name": "Svetlana Isakova",
+      "tagline": "Developer Advocate at JetBrains"
     },
     {
       "id": "969813cd-0231-4310-9c61-745967bd94c5",
-      "firstName": "Tadeas",
-      "lastName": "Kriz"
+      "name": "Tadeas Kriz",
+      "tagline": "Senior Mobile Developer at Touchlab"
     },
     {
       "id": "261f99e8-0dd0-4136-8764-6a3102e675c5",
-      "firstName": "Tyler",
-      "lastName": "Roach"
+      "name": "Tyler Roach",
+      "tagline": "Senior Software Engineer, Android, AWS"
     },
     {
       "id": "198f6599-7d84-4342-9f52-3389b8271895",
-      "firstName": "Tyson",
-      "lastName": "Henning"
+      "name": "Tyson Henning",
+      "tagline": "Yak Engineer at Google LLC"
     },
     {
       "id": "7df2c791-134f-4279-bb68-23f8899bb1ac",
-      "firstName": "Urs",
-      "lastName": "Peter"
+      "name": "Urs Peter",
+      "tagline": "Senior Software Engineer and JetBrains certified Kotlin Trainer"
     },
     {
       "id": "e21ee3c3-2e72-4fd2-8e5c-30511e30fe66",
-      "firstName": "Victor",
-      "lastName": "Kropp"
+      "name": "Victor Kropp",
+      "tagline": "Toolbox App Team Lead at JetBrains"
     },
     {
       "id": "4f858987-1a60-4da8-a4a2-045824a496c7",
-      "firstName": "Viktor",
-      "lastName": "Gamov"
+      "name": "Viktor Gamov",
+      "tagline": "Principal Developer Advocate at Kong"
     },
     {
       "id": "0cdb0d8a-a6ae-49d5-8871-eec72234922c",
-      "firstName": "Vinay",
-      "lastName": "Gaba"
+      "name": "Vinay Gaba",
+      "tagline": "Tech Lead for Client Foundation and Products at Airbnb"
     },
     {
       "id": "ff42e79a-949f-4a90-9cdc-efaa5b46c781",
-      "firstName": "Vladimir",
-      "lastName": "Dolzhenko"
+      "name": "Vladimir Dolzhenko",
+      "tagline": "Technical Lead for the IntelliJ Kotlin plugin at JetBrains"
     },
     {
       "id": "c9cf1bd9-64e9-4b58-a26f-4778c7c499f2",
-      "firstName": "Younes",
-      "lastName": "Charfaoui"
+      "name": "Younes Charfaoui",
+      "tagline": "Android Developer"
     },
     {
       "id": "8ce6cf3a-735e-4a2a-b05f-e2081e5b6741",
-      "firstName": "Zac",
-      "lastName": "Sweers"
+      "name": "Zac Sweers",
+      "tagline": "Mobile at Slack"
     }
   ],
   "rooms": [
