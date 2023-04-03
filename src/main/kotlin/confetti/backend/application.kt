@@ -7,7 +7,7 @@ import graphql.schema.Coercing
 import graphql.schema.GraphQLScalarType
 import graphql.schema.GraphQLType
 import kotlinx.datetime.LocalDateTime
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration
+import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.context.support.beans
 import kotlin.reflect.KClass
@@ -22,7 +22,7 @@ class RootQuery : Query {
 }
 
 // The Spring Boot entry point
-@EnableAutoConfiguration
+@SpringBootApplication(proxyBeanMethods = false)
 class ConfettiApplication
 
 // The Jar entry point
