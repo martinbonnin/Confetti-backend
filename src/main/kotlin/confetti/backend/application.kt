@@ -26,8 +26,8 @@ class RootQuery : Query {
 class ConfettiApplication
 
 // The Jar entry point
-fun main(args: Array<String>) {
-    runApplication<ConfettiApplication>(*args) {
+fun main() {
+    runApplication<ConfettiApplication> {
         addInitializers(beans {
             bean<ScalarSchemaGeneratorHooks>()
             bean<RootQuery>()
