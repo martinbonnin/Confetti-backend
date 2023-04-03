@@ -28,8 +28,8 @@ class Session(
     val description: String?,
     private val start: String,
     private val end: String,
-    val speakerIds: List<String>,
-    val roomId: String
+    private val speakerIds: List<String>,
+    private val roomId: String
 ) {
     fun speakers() = speakerIds.map { speakerId ->
         jsonData.speakers.find { it.id == speakerId }!!

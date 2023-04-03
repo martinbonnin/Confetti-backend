@@ -45,7 +45,7 @@ appengine {
 		setArtifact(tasks.named("bootJar").flatMap { (it as Jar).archiveFile })
 	}
 	tools {
-		setServiceAccountKeyFile(file("service_account_key.json"))
+		setServiceAccountKeyFile(File(System.getenv("HOME")).resolve(".secrets/confetti_backend_service_account.json"))
 	}
 	deploy {
 		projectId = "kotlinconfetti"
