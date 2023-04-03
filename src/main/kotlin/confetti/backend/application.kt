@@ -7,16 +7,12 @@ import graphql.schema.Coercing
 import graphql.schema.GraphQLScalarType
 import graphql.schema.GraphQLType
 import kotlinx.datetime.LocalDateTime
-import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration
 import org.springframework.boot.runApplication
 import org.springframework.context.support.beans
 import kotlin.reflect.KClass
 import kotlin.reflect.KType
 
-
-// The Spring Boot entry point
-@SpringBootApplication
-class ConfettiApplication
 
 // The GraphQL entry point
 class RootQuery : Query {
@@ -24,6 +20,10 @@ class RootQuery : Query {
         return jsonData.sessions
     }
 }
+
+// The Spring Boot entry point
+@EnableAutoConfiguration
+class ConfettiApplication
 
 // The Jar entry point
 fun main(args: Array<String>) {
@@ -34,6 +34,7 @@ fun main(args: Array<String>) {
         })
     }
 }
+
 
 class ScalarSchemaGeneratorHooks: SchemaGeneratorHooks {
     override fun willGenerateGraphQLType(type: KType): GraphQLType? =
