@@ -61,8 +61,8 @@ private fun JsonSession.toSession() = Session(
 
 private fun JsonSpeaker.toSpeaker() = Speaker(
     id = id,
-    firstName = firstName,
-    lastName = lastName,
+    name = "$firstName $lastName",
+    tagline = tagLine,
 )
 
 private fun JsonRoom.toRoom() = Room(
@@ -75,6 +75,7 @@ class JsonSpeaker(
     val id: String,
     val firstName: String,
     val lastName: String,
+    val tagLine: String?
 )
 
 @Serializable

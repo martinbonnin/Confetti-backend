@@ -9,11 +9,9 @@ import kotlinx.serialization.json.decodeFromStream
 @Serializable
 class Speaker(
     val id: String,
-    private val firstName: String,
-    private val lastName: String,
-) {
-    fun name() = "$firstName $lastName"
-}
+    val name: String,
+    val tagline: String?,
+)
 
 @Serializable
 class Room(
@@ -26,7 +24,7 @@ class Session(
     val id: String,
     val title: String,
     val description: String?,
-    private val start: String,
+    internal val start: String,
     private val end: String,
     private val speakerIds: List<String>,
     private val roomId: String
