@@ -1,0 +1,97 @@
+<templateSet group="confetti">
+  <template name="cfplugins" value="id(&quot;org.springframework.boot&quot;) version &quot;3.0.3&quot;&#10;id(&quot;io.spring.dependency-management&quot;) version &quot;1.1.0&quot;&#10;id(&quot;org.jetbrains.kotlin.plugin.spring&quot;) version &quot;1.8.20&quot;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="cf17" value="java {&#10;&#9;toolchain.languageVersion.set(JavaLanguageVersion.of(17))&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="cfdependencies" value="// Everything needed to start a Spring Boot application&#10;implementation(&quot;org.springframework.boot:spring-boot-starter&quot;)&#10;// Everything needed to handle GraphQL queries&#10;implementation(&quot;com.expediagroup:graphql-kotlin-spring-server:7.0.0-alpha.4&quot;)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="ypackages" value="# Tell GraphQL Kotlin where to look for types&#10;graphql:&#10;  packages:&#10;    - &quot;confetti.backend&quot;&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Properties" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="mdecode" value="val jsonData: Data by lazy {&#10;    Data::class.java.classLoader.getResourceAsStream(&quot;all-data.json&quot;)!!.use {&#10;        Json.decodeFromStream(it)&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="msession" value="@Serializable&#10;class Session(&#10;    val id: String,&#10;    val title: String,&#10;    val description: String?,&#10;    val start: String,&#10;    val end: String,&#10;    val speakerIds: List&lt;String&gt;,&#10;    val roomId: String&#10;)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="mspeaker" value="@Serializable&#10;class Speaker(&#10;    val id: String,&#10;    val firstName: String,&#10;    val lastName: String,&#10;)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="mroom" value="@Serializable&#10;class Room(&#10;    val id: String,&#10;    val name: String,&#10;)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="mdata" value="@Serializable&#10;class Data(&#10;    val sessions: List&lt;Session&gt;,&#10;    val speakers: List&lt;Speaker&gt;,&#10;    val rooms: List&lt;Room&gt;,&#10;)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="cfcoercing" value="class ScalarSchemaGeneratorHooks: SchemaGeneratorHooks {&#10;    override fun willGenerateGraphQLType(type: KType): GraphQLType? =&#10;        when (type.classifier as? KClass&lt;*&gt;) {&#10;            LocalDateTime::class -&gt; LocalDateTimeScalar&#10;            else -&gt; null&#10;        }&#10;}&#10;&#10;object LocalDateTimeCoercing : Coercing&lt;LocalDateTime, String&gt; {&#10;    override fun parseValue(input: Any) = LocalDateTime.parse(input.toString())&#10;&#10;    override fun parseLiteral(input: Any) = LocalDateTime.parse((input as StringValue).value)&#10;&#10;    override fun serialize(dataFetcherResult: Any) = dataFetcherResult.toString()&#10;}&#10;&#10;// Add &quot;LocalDateTime&quot; as a new type in the GraphQL schema&#10;val LocalDateTimeScalar = GraphQLScalarType.newScalar()&#10;    .name(&quot;LocalDateTime&quot;)&#10;    .description(&quot;A type representing a formatted kotlinx.datetime.LocalDateTime&quot;)&#10;    .coercing(LocalDateTimeCoercing)&#10;    .build()" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="cfhooks" value="    @Bean&#10;    fun hooks(): SchemaGeneratorHooks = object : SchemaGeneratorHooks {&#10;        override fun willGenerateGraphQLType(type: KType): GraphQLType? =&#10;            when (type.classifier as? KClass&lt;*&gt;) {&#10;                LocalDateTime::class -&gt; LocalDateTimeScalar&#10;                else -&gt; null&#10;            }&#10;    }" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="cfmain" value="// The Jar entry point&#10;fun main(args: Array&lt;String&gt;) {&#10;    runApplication&lt;ConfettiApplication&gt;(*args) {&#10;        addInitializers(beans {&#10;            bean&lt;RootQuery&gt;()&#10;        })&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="cfapplication" value="// The Spring Boot entry point &#10;@SpringBootApplication&#10;class ConfettiApplication" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="cfquery" value="// The GraphQL entry point&#10;class RootQuery : Query {&#10;    fun hello() = &quot;Hello World&quot;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="yide" value="# Enable the playground GraphQL IDE&#10;  playground:&#10;    enabled: true" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Properties" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
