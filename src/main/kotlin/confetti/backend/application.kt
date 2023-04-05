@@ -1,5 +1,6 @@
 package confetti.backend
 
+import com.expediagroup.graphql.generator.annotations.GraphQLDescription
 import com.expediagroup.graphql.generator.hooks.SchemaGeneratorHooks
 import com.expediagroup.graphql.server.operations.Query
 import graphql.language.StringValue
@@ -12,7 +13,6 @@ import org.springframework.boot.runApplication
 import org.springframework.context.support.beans
 import kotlin.reflect.KClass
 import kotlin.reflect.KType
-
 
 
 
