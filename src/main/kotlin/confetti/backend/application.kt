@@ -1,5 +1,6 @@
 package confetti.backend
 
+import com.expediagroup.graphql.generator.annotations.GraphQLDescription
 import com.expediagroup.graphql.generator.hooks.SchemaGeneratorHooks
 import com.expediagroup.graphql.server.operations.Query
 import graphql.language.StringValue
@@ -16,9 +17,10 @@ import kotlin.reflect.KType
 
 // The GraphQL entry point
 class RootQuery : Query {
-    fun sessions(): List<Session> {
-        return jsonData.sessions
-    }
+    fun hello() = "Hello World!!"
+
+    @GraphQLDescription("All the KotlinConf sessions!")
+    fun sessions(): List<Session> = jsonData.sessions
 }
 
 // The Spring Boot entry point
