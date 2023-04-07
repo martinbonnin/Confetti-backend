@@ -21,8 +21,6 @@ dependencies {
 	testImplementation("org.jetbrains.kotlin:kotlin-test")
 	testImplementation("com.squareup.okhttp3:okhttp:4.10.0")
 
-	// Everything needed to start a Spring Boot application
-	implementation("org.springframework.boot:spring-boot-starter")
 	// Everything needed to handle GraphQL queries
 	implementation("com.expediagroup:graphql-kotlin-spring-server:7.0.0-alpha.4")
 }
