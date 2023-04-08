@@ -1,5 +1,5 @@
 <templateSet group="confetti">
-  <template name="cfplugins" value="id(&quot;org.springframework.boot&quot;) version &quot;3.0.3&quot;&#10;id(&quot;io.spring.dependency-management&quot;) version &quot;1.1.0&quot;&#10;id(&quot;org.jetbrains.kotlin.plugin.spring&quot;) version &quot;1.8.20&quot;" description="" toReformat="true" toShortenFQNames="true">
+  <template name="cfplugin" value="id(&quot;org.springframework.boot&quot;) version &quot;3.0.5&quot;&#10;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
@@ -9,7 +9,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="cfdependencies" value="// Everything needed to start a Spring Boot application&#10;implementation(&quot;org.springframework.boot:spring-boot-starter&quot;)&#10;// Everything needed to handle GraphQL queries&#10;implementation(&quot;com.expediagroup:graphql-kotlin-spring-server:7.0.0-alpha.4&quot;)" description="" toReformat="false" toShortenFQNames="true">
+  <template name="cfdependencies" value="// Everything needed to handle GraphQL queries&#10;implementation(&quot;com.expediagroup:graphql-kotlin-spring-server:7.0.0-alpha.4&quot;)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
@@ -39,7 +39,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="mspeaker" value="@Serializable&#10;class Speaker(&#10;    val id: String,&#10;    val firstName: String,&#10;    val lastName: String,&#10;)" description="" toReformat="false" toShortenFQNames="true">
+  <template name="mspeakers" value="@Serializable&#10;class Speaker(&#10;    val id: String,&#10;    val name: String,&#10;    val tagline: String?,&#10;)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
@@ -64,12 +64,12 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="cfmain" value="// The Jar entry point&#10;fun main(args: Array&lt;String&gt;) {&#10;    runApplication&lt;ConfettiApplication&gt;(*args) {&#10;        addInitializers(beans {&#10;            bean&lt;RootQuery&gt;()&#10;        })&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="cfmain" value="// The Jar entry point&#10;fun main() {&#10;    runApplication&lt;ConfettiApplication&gt; {&#10;        addInitializers(beans {&#10;            bean&lt;RootQuery&gt;()&#10;        })&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="cfapplication" value="// The Spring Boot entry point &#10;@SpringBootApplication&#10;class ConfettiApplication" description="" toReformat="false" toShortenFQNames="true">
+  <template name="cfapplication" value="// The Spring Boot entry point&#10;@SpringBootApplication(proxyBeanMethods = false)&#10;class ConfettiApplication&#10;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
@@ -92,6 +92,41 @@
       <option name="Properties" value="false" />
       <option name="SHELL_SCRIPT" value="false" />
       <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="room" value="fun room(): Room = jsonData.rooms.single { it.id == roomId }" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="speakers" value="fun speakers(): List&lt;Speaker&gt; = jsonData.speakers.filter { it.id in speakerIds }" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="times" value="fun start(): LocalDateTime = LocalDateTime.parse(start)&#10;fun end(): LocalDateTime = LocalDateTime.parse(end)&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="cfsessions" value="@GraphQLDescription(&quot;All the KotlinConf sessions!&quot;)&#10;fun sessions(): List&lt;Session&gt; = jsonData.sessions&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
     </context>
   </template>
 </templateSet>
