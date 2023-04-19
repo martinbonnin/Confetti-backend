@@ -1,7 +1,7 @@
 runtime: java17
 instance_class: F1
 
-entrypoint: java -Xmx64m -jar Confetti-backend-0.0.1-SNAPSHOT.jar
+entrypoint: java -Xmx64m -jar Confetti-backend-all.jar
 
 
 

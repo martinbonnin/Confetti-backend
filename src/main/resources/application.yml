@@ -1,8 +1,0 @@
-# Tell GraphQL Kotlin where to look for types
-graphql:
-  packages:
-    - "confetti.backend"
-
-  # Enable the playground GraphQL IDE
-  playground:
-    enabled: true

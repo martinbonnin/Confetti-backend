@@ -23,7 +23,7 @@ class UpdateJson {
         val jsonData = OkHttpClient()
             .newCall(
                 Request.Builder()
-                    .url("https://sessionize.com/api/v2/rje6khfn/view/All")
+                    .url("https://sessionize.com/api/v2/4fyvz46j/view/All")
                     .get()
                     .build()
             ).execute()
