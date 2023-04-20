@@ -1,5 +1,5 @@
 <templateSet group="confetti">
-  <template name="cfplugin" value="id(&quot;org.springframework.boot&quot;) version &quot;3.0.5&quot;&#10;" description="" toReformat="true" toShortenFQNames="true">
+  <template name="cfplugin" value="id(&quot;io.ktor.plugin&quot;) version &quot;2.2.4&quot;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
@@ -9,7 +9,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="cfdependencies" value="// Everything needed to handle GraphQL queries&#10;implementation(&quot;com.expediagroup:graphql-kotlin-spring-server:7.0.0-alpha.4&quot;)" description="" toReformat="false" toShortenFQNames="true">
+  <template name="cfdependencies" value="// Ktor with netty engine&#10;implementation(&quot;io.ktor:ktor-server-netty:2.2.4&quot;)&#10;// Everything needed to handle GraphQL queries&#10;implementation(&quot;com.expediagroup:graphql-kotlin-ktor-server:7.0.0-alpha.5&quot;)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
@@ -64,12 +64,12 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="cfmain" value="// The Jar entry point&#10;fun main() {&#10;    runApplication&lt;ConfettiApplication&gt; {&#10;        addInitializers(beans {&#10;            bean&lt;RootQuery&gt;()&#10;        })&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="cfmain" value="fun main() {&#10;    embeddedServer(Netty, port = 8080) {&#10;        graphQLModule()&#10;    }.start(wait = true)&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="cfapplication" value="// The Spring Boot entry point&#10;@SpringBootApplication(proxyBeanMethods = false)&#10;class ConfettiApplication&#10;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="cfapplication" value="// Configures the Ktor Application&#10;fun Application.graphQLModule() {&#10;    install(GraphQL) {&#10;        schema {&#10;            packages = listOf(&quot;confetti.backend&quot;)&#10;            queries = listOf(RootQuery())&#10;        }&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
