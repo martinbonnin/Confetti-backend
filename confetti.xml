@@ -129,4 +129,14 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="cfroutes" value="routing { &#10;    graphQLPostRoute()&#10;    graphiQLRoute()&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="cfjar" value="application {&#10;&#9;mainClass.set(&quot;confetti.backend.ApplicationKt&quot;)&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
